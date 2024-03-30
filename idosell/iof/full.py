@@ -6,17 +6,20 @@ from pydantic_xml.model import BaseXmlModel, element, attr, wrapped
 import datetime as dt
 
 
-class Price(
-    BaseXmlModel,
-    search_mode="unordered",
-):
+class Price(BaseXmlModel):
     gross: Decimal | None = attr(default=None)
     net: Decimal = attr()
 
 
+class Stock(BaseXmlModel):
+    id: str = attr()
+    quantity: Decimal | None = attr(default=None)
+    available_stock_quantity: Decimal | None = attr(default=None)
+    stock_quantity: Decimal | None = attr(default=None)
+
+
 class Size(
     BaseXmlModel,
-    tag="size",
     search_mode="unordered",
 ):
     id: str = attr()
@@ -28,22 +31,17 @@ class Size(
 
     price: Price
     srp: Price
-    strikethrough_retail_price: Price
-    strikethrough_wholesale_price: Price
+    strikethrough_retail_price: Price | None = element(default=None)
+    strikethrough_wholesale_price: Price | None = element(default=None)
+    stock: list[Stock] | None = element(tag="stock", default=None)
 
 
-class IdName(
-    BaseXmlModel,
-    search_mode="unordered",
-):
+class IdName(BaseXmlModel):
     id: str = attr()
     name: str = attr()
 
 
-class IdPath(
-    BaseXmlModel,
-    search_mode="unordered",
-):
+class IdPath(BaseXmlModel):
     id: str = attr()
     path: str = attr()
 
@@ -62,10 +60,7 @@ class Card(BaseXmlModel):
     url: HttpUrl = attr()
 
 
-class Version(
-    BaseXmlModel,
-    search_mode="unordered",
-):
+class Version(BaseXmlModel):
     main_name: str = attr(name="name")
     names: list[Name] = element(tag="name")
 
@@ -102,6 +97,11 @@ class Product(
 
     price: Price = element()
     srp: Price = element()
+
+    sizes: list[Size] = wrapped(
+        "sizes",
+        element(tag="size"),
+    )
 
 
 class Full(
