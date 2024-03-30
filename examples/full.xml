@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<offer xmlns:iof="http://www.iai-shop.com/developers/iof.phtml"
+       xmlns:iaiext="http://www.iai-shop.com/developers/iof/extensions.phtml" file_format="IOF"
+       generated="2022-02-14 00:24:18" expires="2022-02-15 00:24:18" version="3.0" extensions="yes">
+    <products xmlns:iaiext="http://www.iai-shop.com/developers/iof/extensions.phtml" currency="PLN"
+              iof_translation_generated="yes" language="pol">
+        <product id="33" currency="PLN" code_on_card="34567-11000" producer_code_standard="GTIN13" type="regular"
+                 vat="23.0" site="1">
+            <producer id="1642669997" name="Lewis"/>
+            <category id="1214553882" name="Kategoria testowa 1/Podkategoria 3"/>
+            <category_idosell id="55"
+                              path="Aparaty, kamery i przyrządy optyczne &gt; Akcesoria do aparatów, kamer i przyrządów optycznych &gt; Zapasowe kable do aparatów, kamer i przyrządów optycznych"/>
+            <unit id="3" name="opakowanie"/>
+            <series id="5" name="Kolekcja damska"/>
+            <warranty id="2" type="producer" period="24" name="Gwarancja producenta na 2 lata"/>
+            <card url="https://iof.shop.pl/pl/products/przykladowy-towar-33-33.html"/>
+            <description>
+                <name xml:lang="eng"><![CDATA[Sample product 33]]></name>
+                <name xml:lang="pol"><![CDATA[Przykładowy towar 33]]></name>
+                <version name="niebieski \ GHK 1999 \ bawełna">
+                    <name xml:lang="eng"><![CDATA[blue \ GHK 1999 \ cotton]]></name>
+                    <name xml:lang="pol"><![CDATA[niebieski \ GHK 1999 \ bawełna]]></name>
+                </version>
+                <long_desc xml:lang="eng"><![CDATA[Long description of sample product 33]]></long_desc>
+                <long_desc xml:lang="pol"><![CDATA[Opis długi przykładowego towaru 33]]></long_desc>
+                <short_desc xml:lang="eng"><![CDATA[Short description of sample product 33]]></short_desc>
+                <short_desc xml:lang="pol"><![CDATA[Opis krótki przykładowego towaru 33]]></short_desc>
+            </description>
+            <price gross="1563.6" net="1271.22"/>
+            <srp gross="0" net="0"/>
+            <sizes iaiext:group_name="Ubrania" iaiext:group_id="1" iaiext:sizeList="full">
+                <size id="1" name="XXS" panel_name="xxs" code="33-1" weight="1353" iaiext:weight_net="1100"
+                      code_producer="0000034567111" iaiext:code_external="34567-11" iaiext:priority="0">
+                    <price gross="1575.6" net="1280.98"/>
+                    <srp gross="19211.88" net="15619.41"/>
+                    <strikethrough_retail_price gross="14401.32" net="11708.39"/>
+                    <strikethrough_wholesale_price gross="14401.32" net="11708.39"/>
+                    <stock id="0" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                    <stock id="1" quantity="-1" available_stock_quantity="-1" stock_quantity="-1" location_id="1"
+                           location_text_id="strefa A"/>
+                </size>
+                <size id="2" name="XS" panel_name="xs" code="33-2" weight="1353" iaiext:weight_net="1100"
+                      code_producer="0000034567227" iaiext:code_external="34567-22" iaiext:priority="1">
+                    <price gross="1587.6" net="1290.73"/>
+                    <srp gross="19211.88" net="15619.41"/>
+                    <strikethrough_retail_price gross="14401.32" net="11708.39"/>
+                    <strikethrough_wholesale_price gross="14401.32" net="11708.39"/>
+                    <stock id="0" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                    <stock id="1" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                </size>
+                <size id="3" name="S" panel_name="s" code="33-3" weight="1353" iaiext:weight_net="1100"
+                      code_producer="0000034567333" iaiext:code_external="34567-33" iaiext:priority="2">
+                    <price gross="1599.6" net="1300.49"/>
+                    <srp gross="19211.88" net="15619.41"/>
+                    <strikethrough_retail_price gross="14401.32" net="11708.39"/>
+                    <strikethrough_wholesale_price gross="14401.32" net="11708.39"/>
+                    <stock id="0" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                    <stock id="1" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                </size>
+                <size id="4" name="M" panel_name="m" code="33-4" weight="1353" iaiext:weight_net="1100"
+                      code_producer="0000034567449" iaiext:code_external="34567-44" iaiext:priority="3">
+                    <price gross="1611.6" net="1310.24"/>
+                    <srp gross="19211.88" net="15619.41"/>
+                    <strikethrough_retail_price gross="14401.32" net="11708.39"/>
+                    <strikethrough_wholesale_price gross="14401.32" net="11708.39"/>
+                    <stock id="0" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                    <stock id="1" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                </size>
+                <size id="5" name="L" panel_name="l" code="33-5" weight="1353" iaiext:weight_net="1100"
+                      code_producer="0000034567555" iaiext:code_external="34567-55" iaiext:priority="4">
+                    <price gross="1623.6" net="1320"/>
+                    <srp gross="19211.88" net="15619.41"/>
+                    <strikethrough_retail_price gross="14401.32" net="11708.39"/>
+                    <strikethrough_wholesale_price gross="14401.32" net="11708.39"/>
+                </size>
+                <size id="6" name="XL" panel_name="xl" code="33-6" weight="1353" iaiext:weight_net="1100"
+                      code_producer="0000034567661" iaiext:code_external="34567-66" iaiext:priority="5">
+                    <price gross="1635.6" net="1329.76"/>
+                    <srp gross="19211.88" net="15619.41"/>
+                    <strikethrough_retail_price gross="14401.32" net="11708.39"/>
+                    <strikethrough_wholesale_price gross="14401.32" net="11708.39"/>
+                    <stock id="0" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                    <stock id="1" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                </size>
+                <size id="7" name="XXL" panel_name="xxl" code="33-7" weight="1353" iaiext:weight_net="1100"
+                      code_producer="0000034567777" iaiext:code_external="34567-77" iaiext:priority="6">
+                    <price gross="1647.6" net="1339.51"/>
+                    <srp gross="19211.88" net="15619.41"/>
+                    <strikethrough_retail_price gross="14401.32" net="11708.39"/>
+                    <strikethrough_wholesale_price gross="14401.32" net="11708.39"/>
+                    <stock id="0" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                    <stock id="1" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                </size>
+                <size id="9" name="XXXXL" panel_name="xxxxl" code="33-9" weight="1353" iaiext:weight_net="1100"
+                      code_producer="0000034567999" iaiext:code_external="34567-99" iaiext:priority="8">
+                    <price gross="1671.6" net="1359.02"/>
+                    <srp gross="19211.88" net="15619.41"/>
+                    <strikethrough_retail_price gross="14401.32" net="11708.39"/>
+                    <strikethrough_wholesale_price gross="14401.32" net="11708.39"/>
+                    <stock id="1" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                </size>
+            </sizes>
+            <images>
+                <large>
+                    <image iaiext:priority="1" url="https://iof.shop.pl/data/gfx/pictures/large/3/3/33_1.jpg"
+                           hash="5cc2f0c172881899a70e1a3a0086c78f" changed="2022-01-20 20:50:23" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="2" url="https://iof.shop.pl/data/gfx/pictures/large/3/3/33_2.jpg"
+                           hash="4c255061ccde0f7c04d21e79dc288874" changed="2022-01-20 20:50:26" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="3" url="https://iof.shop.pl/data/gfx/pictures/large/3/3/33_3.jpg"
+                           hash="4bc5c0537484c4d9eed4204f8f86da73" changed="2022-01-20 20:50:28" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="4" url="https://iof.shop.pl/data/gfx/pictures/large/3/3/33_4.jpg"
+                           hash="c00577745493bfe882fa69b6504cb6f8" changed="2022-01-20 20:50:30" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="5" url="https://iof.shop.pl/data/gfx/pictures/large/3/3/33_5.jpg"
+                           hash="3822b5bdf3f2271a84479153a016b787" changed="2022-01-20 20:50:33" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="6" url="https://iof.shop.pl/data/gfx/pictures/large/3/3/33_6.jpg"
+                           hash="f068d3d70a63e2f492b4f5302d2ba416" changed="2022-01-20 20:50:36" width="4000"
+                           height="2667"/>
+                </large>
+                <icons>
+                    <icon url="https://iof.shop.pl/data/gfx/icons/large/3/3/33.jpg"
+                          hash="f7596f21c6e285ee2f3baea7ae382a2b" changed="2022-01-20 20:55:45" width="350"
+                          height="233"/>
+                    <auction_icon url="https://iof.shop.pl/data/gfx/icons/auctions/3/3/33.jpg"
+                                  changed="2022-01-20 20:53:38" hash="f7596f21c6e285ee2f3baea7ae382a2b" width="4000"
+                                  height="2667"/>
+                    <group_icon url="https://iof.shop.pl/data/gfx/icons/versions/3/3/33.jpg"
+                                hash="f7596f21c6e285ee2f3baea7ae382a2b" changed="2022-01-20 20:55:45" width="200"
+                                height="134"/>
+                </icons>
+            </images>
+            <attachments>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=5_33_pol_1c8427528679c1ce00973c3477b708ef"
+                      priority="1" attachment_file_type="image" attachment_file_extension="jpg" enable="all"
+                      download_log="y">
+                    <name xml:lang="pol"><![CDATA[Załącznik nr 1 / dla wszystkich]]></name>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=8_33_pol_8bec64d5bccfeb6dbbf0997af4a8c506"
+                      priority="2" attachment_file_type="audio" attachment_file_extension="mp3" enable="all"
+                      download_log="y">
+                    <name xml:lang="pol"><![CDATA[Załącznik nr 2 / dla zalogowanych]]></name>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=9_33_pol_ace216ed7a726d49c388aacf7019fb1d"
+                      priority="3" attachment_file_type="video" attachment_file_extension="webm" enable="all"
+                      download_log="n">
+                    <name xml:lang="pol"><![CDATA[Załącznik nr 3 / dla nabywców]]></name>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=10_33_pol_ad2407e1971c06449d8f2bf5d0f4211a"
+                      priority="4" attachment_file_type="doc" attachment_file_extension="pdf" enable="all"
+                      download_log="n">
+                    <name xml:lang="pol"><![CDATA[Załącznik nr 4 / dla hurtowników]]></name>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=11_33_pol_956fb247126cc5f7dcf7eb8e62324836"
+                      priority="5" attachment_file_type="other" attachment_file_extension="zip" enable="all"
+                      download_log="y">
+                    <name xml:lang="pol"><![CDATA[Załącznik nr 5 / dla hurtowników lub nabywców]]></name>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=12_33_eng_27efca6ef3d102860b3a2cfad07216dc"
+                      priority="6" attachment_file_type="image" attachment_file_extension="jpg" enable="all"
+                      download_log="y">
+                    <name xml:lang="pol"><![CDATA[Załącznik nr 6 / dla hurtowników i nabywców]]></name>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=13_33_eng_c3c58e52c0b2d743a82da1e4897420dc"
+                      priority="1" attachment_file_type="image" attachment_file_extension="jpg" enable="all"
+                      download_log="y">
+                    <name xml:lang="eng"><![CDATA[Attachment No. 1 / for everyone]]></name>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=14_33_eng_5102f40c31bc47b1c1a9f6e59f96a14d"
+                      priority="2" attachment_file_type="image" attachment_file_extension="jpg" enable="all"
+                      download_log="n">
+                    <name xml:lang="eng"><![CDATA[Attachment No. 2 / for wholesalers and buyers]]></name>
+                </file>
+            </attachments>
+            <group id="35" first_product_id="35" iaiext:first_product_code_external="35-101-35-101"
+                   iaiext:first_product_code_producer="00000000351010" iaiext:first_product_code_iai="33-1">
+                <group_by_parameter id="efac1b1fe38afd9a307b32a0c9f93ba1">
+                    <name xml:lang="pol"><![CDATA[Kolor \ Model \ Materiał]]></name>
+                    <product_value id="b9e49e5669dae27d358d09a1957edd9b">
+                        <name xml:lang="pol"><![CDATA[niebieski \ GHK 1999 \ bawełna]]></name>
+                    </product_value>
+                </group_by_parameter>
+            </group>
+            <parameters>
+                <parameter type="section" id="117" priority="0" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" name="Sekcja parametrów 1 "/>
+                <parameter type="parameter" id="128" priority="9" distinction="n" group_distinction="y" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_COLOR" name="Kolor">
+                    <value id="355" priority="0" name="niebieski"/>
+                </parameter>
+                <parameter type="parameter" id="152" priority="26" distinction="n" group_distinction="y" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MODEL" name="Model">
+                    <value id="333" priority="0" name="GHK 1999"/>
+                </parameter>
+                <parameter type="section" id="228" priority="35" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" name="Sekcja parametrów 2"/>
+                <parameter type="parameter" id="238" priority="66" distinction="n" group_distinction="y" hide="y"
+                           auction_template_hide="n" name="Materiał">
+                    <value id="239" priority="0" name="bawełna"/>
+                </parameter>
+            </parameters>
+        </product>
+        <product id="34" currency="PLN" code_on_card="978-0-00-034101" producer_code_standard="ISBN13" type="regular"
+                 vat="23.0" site="1">
+            <producer id="1513170626" name="H&amp;M"/>
+            <category id="1214553882" name="Kategoria testowa 1/Podkategoria 3"/>
+            <category_idosell id="55"
+                              path="Aparaty, kamery i przyrządy optyczne &gt; Akcesoria do aparatów, kamer i przyrządów optycznych &gt; Zapasowe kable do aparatów, kamer i przyrządów optycznych"/>
+            <unit id="3" name="opakowanie"/>
+            <series id="4" name="Kolekcja męska"/>
+            <warranty id="1" type="producer" period="12" name="Gwarancja producenta na 1 rok"/>
+            <card url="https://iof.shop.pl/pl/products/przykladowy-towar-34-34.html"/>
+            <description>
+                <name xml:lang="eng"><![CDATA[Sample product 34]]></name>
+                <name xml:lang="pol"><![CDATA[Przykładowy towar 34]]></name>
+                <version name="żółty \ GHM 2022 \ poliester">
+                    <name xml:lang="eng"><![CDATA[yellow \ GHM 2022 \ polyester]]></name>
+                    <name xml:lang="pol"><![CDATA[żółty \ GHM 2022 \ poliester]]></name>
+                </version>
+                <long_desc xml:lang="eng"><![CDATA[Long description of sample product 34]]></long_desc>
+                <long_desc xml:lang="pol"><![CDATA[Opis długi przykładowego towaru 34]]></long_desc>
+                <short_desc xml:lang="eng"><![CDATA[Short description of sample product 34]]></short_desc>
+                <short_desc xml:lang="pol"><![CDATA[Opis krótki przykładowego towaru 34]]></short_desc>
+            </description>
+            <price gross="6125.87" net="4980.39"/>
+            <srp gross="6272.36" net="5099.49"/>
+            <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+            <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+            <sizes iaiext:group_name="Ubrania" iaiext:group_id="1" iaiext:sizeList="full">
+                <size id="1" name="XXS" panel_name="xxs" code="34-1" weight="1353" iaiext:weight_net="1100"
+                      code_producer="978-0-00-034101-3" iaiext:code_external="34-101-34-101-34-101" iaiext:priority="0">
+                    <price gross="6125.87" net="4980.39"/>
+                    <srp gross="75268.3" net="61193.72"/>
+                    <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+                    <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+                    <stock id="1" quantity="102" available_stock_quantity="102" stock_quantity="102.000"/>
+                </size>
+                <size id="2" name="XS" panel_name="xs" code="34-2" weight="1353" iaiext:weight_net="1100"
+                      code_producer="978-0-00-034202-7" iaiext:code_external="34-202-34-202-34-202" iaiext:priority="1">
+                    <price gross="6125.87" net="4980.39"/>
+                    <srp gross="75268.3" net="61193.72"/>
+                    <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+                    <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+                    <stock id="1" quantity="100" available_stock_quantity="100" stock_quantity="100.000"/>
+                </size>
+                <size id="3" name="S" panel_name="s" code="34-3" weight="1353" iaiext:weight_net="1100"
+                      code_producer="978-0-00-034303-1" iaiext:code_external="34-303-34-303-34-303" iaiext:priority="2">
+                    <price gross="6125.87" net="4980.39"/>
+                    <srp gross="75268.3" net="61193.72"/>
+                    <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+                    <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+                    <stock id="1" quantity="102" available_stock_quantity="102" stock_quantity="102.000"/>
+                </size>
+                <size id="4" name="M" panel_name="m" code="34-4" weight="1353" iaiext:weight_net="1100"
+                      code_producer="978-0-00-034404-5" iaiext:code_external="34-404-34-404-34-404" iaiext:priority="3">
+                    <price gross="6125.87" net="4980.39"/>
+                    <srp gross="75268.3" net="61193.72"/>
+                    <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+                    <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+                    <stock id="1" quantity="100" available_stock_quantity="100" stock_quantity="100.000"/>
+                </size>
+                <size id="5" name="L" panel_name="l" code="34-5" weight="1353" iaiext:weight_net="1100"
+                      code_producer="978-0-00-034505-9" iaiext:code_external="34-505-34-50534-505" iaiext:priority="4">
+                    <price gross="6125.87" net="4980.39"/>
+                    <srp gross="75268.3" net="61193.72"/>
+                    <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+                    <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+                    <stock id="1" quantity="103" available_stock_quantity="103" stock_quantity="103.000"/>
+                </size>
+                <size id="6" name="XL" panel_name="xl" code="34-6" weight="1353" iaiext:weight_net="1100"
+                      code_producer="978-0-00-034606-3" iaiext:code_external="34-606-34-606-34-606" iaiext:priority="5">
+                    <price gross="6125.87" net="4980.39"/>
+                    <srp gross="75268.3" net="61193.72"/>
+                    <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+                    <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+                    <stock id="1" quantity="100" available_stock_quantity="100" stock_quantity="100.000"/>
+                </size>
+                <size id="7" name="XXL" panel_name="xxl" code="34-7" weight="1353" iaiext:weight_net="1100"
+                      code_producer="978-0-00-034707-7" iaiext:code_external="34-707-34-707-34-707" iaiext:priority="6">
+                    <price gross="6125.87" net="4980.39"/>
+                    <srp gross="75268.3" net="61193.72"/>
+                    <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+                    <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+                    <stock id="1" quantity="104" available_stock_quantity="104" stock_quantity="104.000"/>
+                </size>
+                <size id="8" name="XXXL" panel_name="xxxl" code="34-8" weight="1353" iaiext:weight_net="1100"
+                      code_producer="978-0-00-034808-1" iaiext:code_external="34-808-34-808-34-808" iaiext:priority="7">
+                    <price gross="6125.87" net="4980.39"/>
+                    <srp gross="75268.3" net="61193.72"/>
+                    <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+                    <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+                    <stock id="1" quantity="100" available_stock_quantity="100" stock_quantity="100.000"/>
+                </size>
+                <size id="9" name="XXXXL" panel_name="xxxxl" code="34-9" weight="1353" iaiext:weight_net="1100"
+                      code_producer="978-0-00-034909-5" iaiext:code_external="34-909-34-909-34-909" iaiext:priority="8">
+                    <price gross="6125.87" net="4980.39"/>
+                    <srp gross="75268.3" net="61193.72"/>
+                    <strikethrough_retail_price gross="56421.49" net="45871.13"/>
+                    <strikethrough_wholesale_price gross="42311.77" net="34399.81"/>
+                    <stock id="1" quantity="100" available_stock_quantity="100" stock_quantity="100.000"/>
+                </size>
+            </sizes>
+            <images>
+                <large>
+                    <image iaiext:priority="1" url="https://iof.shop.pl/data/gfx/pictures/large/4/3/34_1.jpg"
+                           hash="ae437d773cb4a6ad61f6e6aa008294b0" changed="2022-01-20 20:59:39" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="2" url="https://iof.shop.pl/data/gfx/pictures/large/4/3/34_2.jpg"
+                           hash="b3444d8f9172de8270c8ae5ed564f815" changed="2022-01-20 20:59:41" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="3" url="https://iof.shop.pl/data/gfx/pictures/large/4/3/34_3.jpg"
+                           hash="c1cc1bcd3fef5387ad0461f127fa406c" changed="2022-01-20 20:59:43" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="4" url="https://iof.shop.pl/data/gfx/pictures/large/4/3/34_4.jpg"
+                           hash="fdd1ee8ab348547861591393aa2fa9e3" changed="2022-01-20 20:59:46" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="5" url="https://iof.shop.pl/data/gfx/pictures/large/4/3/34_5.jpg"
+                           hash="24d34b368b45fff700ed62936b9906e0" changed="2022-01-20 20:59:48" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="6" url="https://iof.shop.pl/data/gfx/pictures/large/4/3/34_6.jpg"
+                           hash="ae8deaefda9587c2752d96821bf40399" changed="2022-01-20 20:59:50" width="4000"
+                           height="2667"/>
+                </large>
+                <icons>
+                    <icon url="https://iof.shop.pl/data/gfx/icons/large/4/3/34.jpg"
+                          hash="e610cd01e6df557c2e249fdae251e5d4" changed="2022-01-20 21:32:56" width="350"
+                          height="233"/>
+                    <auction_icon url="https://iof.shop.pl/data/gfx/icons/auctions/4/3/34.jpg"
+                                  changed="2022-01-20 21:00:11" hash="e610cd01e6df557c2e249fdae251e5d4" width="4000"
+                                  height="2667"/>
+                    <group_icon url="https://iof.shop.pl/data/gfx/icons/versions/4/3/34.jpg"
+                                hash="e610cd01e6df557c2e249fdae251e5d4" changed="2022-01-20 21:32:56" width="200"
+                                height="134"/>
+                </icons>
+            </images>
+            <attachments>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=6_34_pol_13f99ecd3081d4289e236b837a58662b"
+                      priority="1" attachment_file_type="image" attachment_file_extension="jpg" enable="all"
+                      download_log="y">
+                    <name xml:lang="pol"><![CDATA[zdjecie 111]]></name>
+                </file>
+            </attachments>
+            <group id="35" first_product_id="35" iaiext:first_product_code_external="35-101-35-101"
+                   iaiext:first_product_code_producer="00000000351010" iaiext:first_product_code_iai="34-1">
+                <group_by_parameter id="efac1b1fe38afd9a307b32a0c9f93ba1">
+                    <name xml:lang="pol"><![CDATA[Kolor \ Model \ Materiał]]></name>
+                    <product_value id="3414abba35ed1c4c5a20d52239c33140">
+                        <name xml:lang="pol"><![CDATA[żółty \ GHM 2022 \ poliester]]></name>
+                    </product_value>
+                </group_by_parameter>
+            </group>
+            <parameters>
+                <parameter type="parameter" id="128" priority="9" distinction="n" group_distinction="y" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_COLOR" name="Kolor">
+                    <value id="356" priority="0" name="żółty"/>
+                </parameter>
+                <parameter type="parameter" id="152" priority="26" distinction="n" group_distinction="y" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MODEL" name="Model">
+                    <value id="332" priority="0" name="GHM 2022"/>
+                </parameter>
+                <parameter type="section" id="228" priority="35" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" name="Sekcja parametrów 2"/>
+                <parameter type="parameter" id="238" priority="66" distinction="n" group_distinction="y" hide="y"
+                           auction_template_hide="n" name="Materiał">
+                    <value id="241" priority="0" name="poliester"/>
+                </parameter>
+            </parameters>
+        </product>
+        <product id="35" currency="PLN" code_on_card="35-101-35" producer_code_standard="GTIN14" type="regular"
+                 vat="23.0" site="1">
+            <producer id="1642669991" name="Samsung"/>
+            <category id="1214553882" name="Kategoria testowa 1/Podkategoria 3"/>
+            <category_idosell id="55"
+                              path="Aparaty, kamery i przyrządy optyczne &gt; Akcesoria do aparatów, kamer i przyrządów optycznych &gt; Zapasowe kable do aparatów, kamer i przyrządów optycznych"/>
+            <unit id="3" name="opakowanie"/>
+            <series id="6" name="Kolekcja dziecięca"/>
+            <warranty id="3" type="producer" period="60" name="Gwarancja producenta na 5 lat"/>
+            <card url="https://iof.shop.pl/pl/products/przykladowy-towar-35-35.html"/>
+            <description>
+                <name xml:lang="eng"><![CDATA[Sample product 35]]></name>
+                <name xml:lang="pol"><![CDATA[Przykładowy towar 35]]></name>
+                <version name="różowy \ GBN 2023 \ poliamid">
+                    <name xml:lang="eng"><![CDATA[pink \ GBN 2023 \ polyamide]]></name>
+                    <name xml:lang="pol"><![CDATA[różowy \ GBN 2023 \ poliamid]]></name>
+                </version>
+                <iaiext:search_keywords xml:lang="pol" iaiext:site_id="1">Domyślne meta słowa pol
+                </iaiext:search_keywords>
+                <long_desc xml:lang="eng"><![CDATA[Long description of sample product 35]]></long_desc>
+                <long_desc xml:lang="pol"><![CDATA[Opis długi przykładowego towaru 35]]></long_desc>
+                <short_desc xml:lang="eng"><![CDATA[Short description of sample product 35]]></short_desc>
+                <short_desc xml:lang="pol"><![CDATA[Opis krótki przykładowego towaru 35]]></short_desc>
+            </description>
+            <price gross="14103.61" net="11466.34"/>
+            <srp gross="2346.76" net="1907.93"/>
+            <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+            <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+            <sizes iaiext:group_name="Ubrania" iaiext:group_id="1" iaiext:sizeList="full">
+                <size id="1" name="XXS" panel_name="xxs" code="35-1" weight="110" iaiext:weight_net="10"
+                      code_producer="00000000351010" iaiext:code_external="35-101-35-101" iaiext:priority="0">
+                    <price gross="14103.61" net="11466.34"/>
+                    <srp gross="28161.15" net="22895.23"/>
+                    <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+                    <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+                    <stock id="0" quantity="29" available_stock_quantity="29" stock_quantity="29.000"/>
+                    <stock id="1" quantity="4" available_stock_quantity="4" stock_quantity="21.000"/>
+                </size>
+                <size id="2" name="XS" panel_name="xs" code="35-2" weight="120" iaiext:weight_net="20"
+                      code_producer="00000000352024" iaiext:code_external="35-202-35-202" iaiext:priority="1">
+                    <price gross="14103.61" net="11466.34"/>
+                    <srp gross="28161.15" net="22895.23"/>
+                    <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+                    <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+                    <stock id="0" quantity="30" available_stock_quantity="30" stock_quantity="30.000"/>
+                </size>
+                <size id="3" name="S" panel_name="s" code="35-3" weight="130" iaiext:weight_net="30"
+                      code_producer="00000000353038" iaiext:code_external="35-303-35-303" iaiext:priority="2">
+                    <price gross="14103.61" net="11466.34"/>
+                    <srp gross="28161.15" net="22895.23"/>
+                    <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+                    <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+                    <stock id="0" quantity="30" available_stock_quantity="30" stock_quantity="30.000"/>
+                </size>
+                <size id="4" name="M" panel_name="m" code="35-4" weight="140" iaiext:weight_net="40"
+                      code_producer="00000000354042" iaiext:code_external="35-404-35-404" iaiext:priority="3">
+                    <price gross="14103.61" net="11466.34"/>
+                    <srp gross="28161.15" net="22895.23"/>
+                    <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+                    <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+                    <stock id="0" quantity="30" available_stock_quantity="30" stock_quantity="30.000"/>
+                </size>
+                <size id="5" name="L" panel_name="l" code="35-5" weight="150" iaiext:weight_net="50"
+                      code_producer="00000000355056" iaiext:code_external="35-505-35-505" iaiext:priority="4">
+                    <price gross="14103.61" net="11466.34"/>
+                    <srp gross="28161.15" net="22895.23"/>
+                    <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+                    <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+                    <stock id="0" quantity="30" available_stock_quantity="30" stock_quantity="30.000"/>
+                </size>
+                <size id="6" name="XL" panel_name="xl" code="35-6" weight="160" iaiext:weight_net="60"
+                      code_producer="00000000356060" iaiext:code_external="35-606-35-606" iaiext:priority="5">
+                    <price gross="14103.61" net="11466.34"/>
+                    <srp gross="28161.15" net="22895.23"/>
+                    <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+                    <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+                    <stock id="0" quantity="30" available_stock_quantity="30" stock_quantity="30.000"/>
+                </size>
+                <size id="7" name="XXL" panel_name="xxl" code="35-7" weight="170" iaiext:weight_net="70"
+                      code_producer="00000000357074" iaiext:code_external="35-707-35-707" iaiext:priority="6">
+                    <price gross="14103.61" net="11466.34"/>
+                    <srp gross="28161.15" net="22895.23"/>
+                    <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+                    <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+                    <stock id="0" quantity="30" available_stock_quantity="30" stock_quantity="30.000"/>
+                </size>
+                <size id="8" name="XXXL" panel_name="xxxl" code="35-8" weight="180" iaiext:weight_net="80"
+                      code_producer="00000000358088" iaiext:code_external="35-808-35-808" iaiext:priority="7">
+                    <price gross="14103.61" net="11466.34"/>
+                    <srp gross="28161.15" net="22895.23"/>
+                    <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+                    <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+                    <stock id="0" quantity="30" available_stock_quantity="30" stock_quantity="30.000"/>
+                </size>
+                <size id="9" name="XXXXL" panel_name="xxxxl" code="35-9" weight="190" iaiext:weight_net="90"
+                      code_producer="00000000359092" iaiext:code_external="35-909-35-909" iaiext:priority="8">
+                    <price gross="14103.61" net="11466.34"/>
+                    <srp gross="28161.15" net="22895.23"/>
+                    <strikethrough_retail_price gross="42288.73" net="34381.08"/>
+                    <strikethrough_wholesale_price gross="37399.32" net="30405.97"/>
+                    <stock id="0" quantity="30" available_stock_quantity="30" stock_quantity="30.000"/>
+                </size>
+            </sizes>
+            <images>
+                <large>
+                    <image iaiext:priority="1" url="https://iof.shop.pl/data/gfx/pictures/large/5/3/35_1.jpg"
+                           hash="3df14a5eec71b95d88258cc117f7e323" changed="2022-01-20 21:04:29" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="2" url="https://iof.shop.pl/data/gfx/pictures/large/5/3/35_2.jpg"
+                           hash="da127975c17665ecc9dcaf3f712ff917" changed="2022-01-20 21:04:32" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="3" url="https://iof.shop.pl/data/gfx/pictures/large/5/3/35_3.jpg"
+                           hash="c62ac1ccd53ea1ee76a67bf97cb570bb" changed="2022-01-20 21:04:34" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="4" url="https://iof.shop.pl/data/gfx/pictures/large/5/3/35_4.jpg"
+                           hash="81c16bc2f254705b0d98b4d43d31e045" changed="2022-01-20 21:04:36" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="5" url="https://iof.shop.pl/data/gfx/pictures/large/5/3/35_5.jpg"
+                           hash="4a0463483412ca5fe03b146d12bc26c5" changed="2022-01-20 21:04:39" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="6" url="https://iof.shop.pl/data/gfx/pictures/large/5/3/35_6.jpg"
+                           hash="84d3a263ee9e860894dd7d2588a6c26d" changed="2022-01-20 21:04:41" width="4000"
+                           height="2667"/>
+                </large>
+                <icons>
+                    <icon url="https://iof.shop.pl/data/gfx/icons/large/5/3/35.jpg"
+                          hash="8e0dbf72727b64cd7734e7a242265e0f" changed="2022-01-20 21:32:56" width="350"
+                          height="233"/>
+                    <auction_icon url="https://iof.shop.pl/data/gfx/icons/auctions/5/3/35.jpg"
+                                  changed="2022-01-20 21:05:18" hash="8e0dbf72727b64cd7734e7a242265e0f" width="4000"
+                                  height="2667"/>
+                    <group_icon url="https://iof.shop.pl/data/gfx/icons/versions/5/3/35.jpg"
+                                hash="8e0dbf72727b64cd7734e7a242265e0f" changed="2022-01-20 21:32:56" width="200"
+                                height="134"/>
+                </icons>
+            </images>
+            <attachments>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=7_35_pol_108e2a6636128823a4531bbdd09f7fa3"
+                      priority="1" attachment_file_type="image" attachment_file_extension="jpg" enable="all"
+                      download_log="y">
+                    <name xml:lang="pol"><![CDATA[zdjecie 111]]></name>
+                </file>
+            </attachments>
+            <group id="35" first_product_id="35" iaiext:first_product_code_external="35-101-35-101"
+                   iaiext:first_product_code_producer="00000000351010" iaiext:first_product_code_iai="35-1">
+                <group_by_parameter id="efac1b1fe38afd9a307b32a0c9f93ba1">
+                    <name xml:lang="pol"><![CDATA[Kolor \ Model \ Materiał]]></name>
+                    <product_value id="e48122f9f143ace95183f95813e028a9">
+                        <name xml:lang="pol"><![CDATA[różowy \ GBN 2023 \ poliamid]]></name>
+                    </product_value>
+                </group_by_parameter>
+            </group>
+            <parameters>
+                <parameter type="parameter" id="66" priority="4" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_RETAIL_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu detalicznym">
+                    <value id="109" priority="0" name="5"/>
+                </parameter>
+                <parameter type="parameter" id="128" priority="9" distinction="n" group_distinction="y" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_COLOR" name="Kolor">
+                    <value id="357" priority="0" name="różowy"/>
+                </parameter>
+                <parameter type="parameter" id="152" priority="13" distinction="n" group_distinction="y" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MODEL" name="Model">
+                    <value id="358" priority="0" name="GBN 2023"/>
+                </parameter>
+                <parameter type="parameter" id="238" priority="14" distinction="n" group_distinction="y" hide="y"
+                           auction_template_hide="n" name="Materiał">
+                    <value id="240" priority="0" name="poliamid"/>
+                </parameter>
+            </parameters>
+        </product>
+        <product id="41" currency="PLN" code_on_card="978-3-16-1484888" producer_code_standard="OTHER" type="virtual"
+                 vat="23.0" site="1">
+            <producer id="1642669997" name="Lewis"/>
+            <category id="1157971942" name="Akcesoria i fantazje"/>
+            <category_idosell id="2502"
+                              path="Pojazdy i części &gt; Akcesoria i części do pojazdów &gt; Przewóz i przechowywanie bagażu &gt; Akcesoria do bagażników bazowych &gt; Akcesoria do bagażników na sprzęt narciarski i snowboardowy"/>
+            <unit id="9" name="gram"/>
+            <series id="5" name="Kolekcja damska"/>
+            <warranty id="5" type="seller" period="1" name="Gwarancja sklepu na 30 dni"/>
+            <card url="https://iof.shop.pl/pl/products/przykladowy-towar-wirtualny-41-41.html"/>
+            <description>
+                <name xml:lang="eng"><![CDATA[Sample virtual product 41]]></name>
+                <name xml:lang="pol"><![CDATA[Przykładowy towar wirtualny 41]]></name>
+                <long_desc xml:lang="eng"><![CDATA[Virtual product long description 41]]></long_desc>
+                <long_desc xml:lang="pol"><![CDATA[Opis długi towaru wirtualnego 41]]></long_desc>
+                <short_desc xml:lang="eng"><![CDATA[Short description of virtual product 41]]></short_desc>
+                <short_desc xml:lang="pol"><![CDATA[Opis krótki towaru wirtualnego 41]]></short_desc>
+            </description>
+            <price gross="110" net="89.43"/>
+            <srp gross="300" net="243.9"/>
+            <strikethrough_retail_price gross="4500" net="3658.54"/>
+            <strikethrough_wholesale_price gross="4500" net="3658.54"/>
+            <sizes iaiext:group_name="One size" iaiext:group_id="-1" iaiext:sizeList="full">
+                <size id="uniw" name="one size" panel_name="one size" code="41-uniw" weight="1353"
+                      iaiext:weight_net="1100" code_producer="978-3-16-1484888-2" iaiext:code_external="184083068865"
+                      iaiext:priority="0">
+                    <price gross="110" net="89.43"/>
+                    <srp gross="300" net="243.9"/>
+                    <strikethrough_retail_price gross="4500" net="3658.54"/>
+                    <strikethrough_wholesale_price gross="4500" net="3658.54"/>
+                    <stock id="1" quantity="120" available_stock_quantity="120" stock_quantity="120.000"/>
+                </size>
+            </sizes>
+            <images>
+                <large>
+                    <image iaiext:priority="1" url="https://iof.shop.pl/data/gfx/pictures/large/1/4/41_1.jpg"
+                           hash="bb99ef8adda58b855f0410fa69a63851" changed="2022-01-20 22:26:34" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="2" url="https://iof.shop.pl/data/gfx/pictures/large/1/4/41_2.jpg"
+                           hash="0df6e211c4e73e81a0d131167322428f" changed="2022-01-20 22:26:37" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="3" url="https://iof.shop.pl/data/gfx/pictures/large/1/4/41_3.jpg"
+                           hash="c485da63b14a6ce668608a5e5c054731" changed="2022-01-20 22:26:39" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="4" url="https://iof.shop.pl/data/gfx/pictures/large/1/4/41_4.jpg"
+                           hash="a3569cbed17ea20805dca33a49ffc6fb" changed="2022-01-20 22:26:41" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="5" url="https://iof.shop.pl/data/gfx/pictures/large/1/4/41_5.jpg"
+                           hash="76f345de6f4daa33d6118b914abde89e" changed="2022-01-20 22:26:43" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="6" url="https://iof.shop.pl/data/gfx/pictures/large/1/4/41_6.jpg"
+                           hash="34a9899137abfdfd179cc42c5927cad4" changed="2022-01-20 22:26:45" width="4000"
+                           height="2667"/>
+                </large>
+                <icons>
+                    <icon url="https://iof.shop.pl/data/gfx/icons/large/1/4/41.jpg"
+                          hash="c22e6388cbb23752fa258e0bede7cc2e" changed="2022-01-20 22:33:13" width="350"
+                          height="233"/>
+                    <auction_icon url="https://iof.shop.pl/data/gfx/icons/auctions/1/4/41.jpg"
+                                  changed="2022-01-20 22:27:18" hash="c22e6388cbb23752fa258e0bede7cc2e" width="4000"
+                                  height="2667"/>
+                    <group_icon url="https://iof.shop.pl/data/gfx/icons/versions/1/4/41.jpg"
+                                hash="c22e6388cbb23752fa258e0bede7cc2e" changed="2022-01-20 22:33:13" width="200"
+                                height="134"/>
+                </icons>
+            </images>
+            <attachments>
+                <file version="full"
+                      url="https://iof.shop.pl/download-attachment.php?h=m7G5RMSUpaSXl2W3ksfK1dSVpXM=#downloadapp"
+                      priority="1" attachment_file_type="image" attachment_file_extension="jpg">
+                    <name xml:lang="eng"><![CDATA[Attachment No. 1 / Unlimited]]></name>
+                    <name xml:lang="pol"><![CDATA[Załącznik nr 1 / bez ograniczeń]]></name>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/download-attachment.php?h=m7G5RMSUpaSXl2W3ksfK1dSVpXQ=#downloadapp"
+                      priority="2" attachment_file_type="image" attachment_file_extension="jpg">
+                    <name xml:lang="eng">
+                        <![CDATA[Attachment No. 2 / unlimited for 12 days from the date of payment of the order]]></name>
+                    <name xml:lang="pol">
+                        <![CDATA[Załącznik nr 2 / bez ograniczeń przez 12 dni od daty opłacenia zamówienia]]></name>
+                    <limitation days="12"/>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/download-attachment.php?h=m7G5RMSUpaSXl2W3ksfK1dSVpXU=#downloadapp"
+                      priority="3" attachment_file_type="image" attachment_file_extension="jpg">
+                    <name xml:lang="eng">
+                        <![CDATA[Attachment No. 3 / 3 times from the date of payment of the order without a time limit]]></name>
+                    <name xml:lang="pol">
+                        <![CDATA[Załącznik nr 3 / 3 razy od daty opłacenia zamówienia bez ograniczenia czasowego]]></name>
+                    <limitation downloads="3"/>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/download-attachment.php?h=m7G5RMSUpaSXl2W3ksfK1dSVpXY=#downloadapp"
+                      priority="4" attachment_file_type="image" attachment_file_extension="jpg">
+                    <name xml:lang="eng">
+                        <![CDATA[Attachment No. 4 / 5 times within 7 days from the date of payment of the order]]></name>
+                    <name xml:lang="pol">
+                        <![CDATA[Załącznik nr 4 / 5 razy w przeciągu 7 dni od daty opłacenia zamówienia]]></name>
+                    <limitation downloads="5" days="7"/>
+                </file>
+                <file version="sample"
+                      url="https://iof.shop.pl/download-attachment.php?h=m7G5RMSUpaSXl2W3ksfK1dSVpXc=#downloadapp"
+                      priority="5" attachment_file_type="image" attachment_file_extension="jpg">
+                    <name xml:lang="eng"><![CDATA[Attachment No. 5 / free sample]]></name>
+                    <name xml:lang="pol"><![CDATA[Załącznik nr 5 / darmowa próbka]]></name>
+                </file>
+            </attachments>
+            <parameters>
+                <parameter type="section" id="117" priority="0" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" name="Sekcja parametrów 1 "/>
+                <parameter type="parameter" id="118" priority="1" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_LENGTH_CM"
+                           name="Długość towaru w centymetrach">
+                    <value id="119" priority="0" name="100"/>
+                </parameter>
+                <parameter type="parameter" id="120" priority="2" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_LENGTH"
+                           name="Długość towaru w metrach">
+                    <value id="121" priority="0" name="200"/>
+                </parameter>
+                <parameter type="parameter" id="338" priority="3" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MOVIE_RELEASE_DATE" name="Film: data wydania">
+                    <value id="339" priority="0" name="2022-01-20"/>
+                </parameter>
+                <parameter type="parameter" id="340" priority="4" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MOVIE_ORIGINAL_TITLE"
+                           name="Film: tytuł oryginalny w języku angielskim">
+                    <value id="341" priority="0" name="It takes two"/>
+                </parameter>
+                <parameter type="parameter" id="122" priority="5" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_AGE_GROUP" name="Grupa wiekowa 1">
+                    <value id="123" priority="0" name="Dorośli" context_id="CONTEXT_AGE_GROUP_ADULT"/>
+                </parameter>
+                <parameter type="parameter" id="124" priority="6" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_AGE_GROUP" name="Grupa wiekowa 2">
+                    <value id="125" priority="0" name="Dzieci" context_id="CONTEXT_AGE_GROUP_MINOR"/>
+                </parameter>
+                <parameter type="parameter" id="126" priority="7" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_AGE_GROUP" name="Grupa wiekowa 3">
+                    <value id="127" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="423" priority="8" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_ENERGY_EFFICIENCY_CLASS"
+                           name="Klasa efektywności energetycznej">
+                    <value id="424" priority="0" name="D"/>
+                </parameter>
+                <parameter type="parameter" id="128" priority="9" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_COLOR" name="Kolor">
+                    <value id="129" priority="0" name="czerwony"/>
+                </parameter>
+                <parameter type="parameter" id="342" priority="10" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_BOOK_AUTHOR" name="Książka: Autor">
+                    <value id="343" priority="0" name="Coben"/>
+                </parameter>
+                <parameter type="parameter" id="344" priority="11" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_BOOK_PUBLICATION_DATE"
+                           name="Książka: Data wydania">
+                    <value id="345" priority="0" name="2019-05-15"/>
+                </parameter>
+                <parameter type="parameter" id="346" priority="12" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_BOOK_PAGES_NUMBER" name="Książka: Ilość stron">
+                    <value id="347" priority="0" name="1255"/>
+                </parameter>
+                <parameter type="parameter" id="348" priority="13" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_BOOK_PUBLICATION_LANGUAGE"
+                           name="Książka: Język wydania ">
+                    <value id="349" priority="0" name="Polski"/>
+                </parameter>
+                <parameter type="parameter" id="130" priority="14" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_PRESCRIPTION_MEDICINE" name="Lek na receptę 1">
+                    <value id="131" priority="0" name="Tak" context_id="CONTEXT_PRESCRIPTION_MEDICINE_YES"/>
+                </parameter>
+                <parameter type="parameter" id="132" priority="15" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_PRESCRIPTION_MEDICINE" name="Lek na receptę 2">
+                    <value id="133" priority="0" name="Nie" context_id="CONTEXT_PRESCRIPTION_MEDICINE_NO"/>
+                </parameter>
+                <parameter type="parameter" id="134" priority="16" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_PRESCRIPTION_MEDICINE" name="Lek na receptę 3">
+                    <value id="135" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="136" priority="17" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_QUANTITY_PACKAGE"
+                           name="Liczba sztuk w opakowaniu dla jednostki standardowej">
+                    <value id="137" priority="0" name="300"/>
+                </parameter>
+                <parameter type="parameter" id="138" priority="18" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="y" context_id="CONTEXT_MAX_SIZE_QUANTITY_PER_RETAIL_ORDER"
+                           name="Maksymalna liczba pojedynczego rozmiaru w zamówieniu">
+                    <value id="139" priority="0" name="20"/>
+                </parameter>
+                <parameter type="parameter" id="140" priority="19" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MAX_SIZE_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Maksymalna liczba pojedynczego rozmiaru w zamówieniu hurtowym">
+                    <value id="141" priority="0" name="10"/>
+                </parameter>
+                <parameter type="parameter" id="142" priority="20" distinction="y" group_distinction="n" hide="y"
+                           auction_template_hide="y" context_id="CONTEXT_MAX_QUANTITY_PER_RETAIL_ORDER"
+                           name="Maksymalna liczba towaru w zamówieniu">
+                    <value id="143" priority="0" name="45"/>
+                </parameter>
+                <parameter type="parameter" id="144" priority="21" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MAX_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Maksymalna liczba towaru w zamówieniu hurtowym">
+                    <value id="145" priority="0" name="65"/>
+                </parameter>
+                <parameter type="parameter" id="146" priority="22" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_SIZE_QUANTITY_PER_RETAIL_ORDER"
+                           name="Minimalna liczba pojedynczego rozmiaru w zamówieniu">
+                    <value id="147" priority="0" name="1"/>
+                </parameter>
+                <parameter type="parameter" id="148" priority="23" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_SIZE_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Minimalna liczba pojedynczego rozmiaru w zamówieniu hurtowym">
+                    <value id="149" priority="0" name="1"/>
+                </parameter>
+                <parameter type="parameter" id="150" priority="24" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_RETAIL_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu">
+                    <value id="329" priority="0" name="2"/>
+                </parameter>
+                <parameter type="parameter" id="68" priority="25" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu hurtowym">
+                    <value id="110" priority="0" name="1"/>
+                </parameter>
+                <parameter type="parameter" id="152" priority="26" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MODEL" name="Model">
+                    <value id="422" priority="0" name="BNG 8889"/>
+                </parameter>
+                <parameter type="parameter" id="154" priority="27" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_VOLUME_SI"
+                           name="Objętość towaru w litrach dla jednostki standardowej">
+                    <value id="155" priority="0" name="238"/>
+                </parameter>
+                <parameter type="parameter" id="156" priority="28" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_VOLUME_M3"
+                           name="Objętość towaru w metrach sześciennych">
+                    <value id="157" priority="0" name="452"/>
+                </parameter>
+                <parameter type="parameter" id="158" priority="29" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_VOLUME"
+                           name="Objętość towaru w mililitrach dla jednostki standardowej">
+                    <value id="159" priority="0" name="111111"/>
+                </parameter>
+                <parameter type="parameter" id="160" priority="30" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_DOCUMENTS_JPK_VAT"
+                           name="Oznaczenia dokumentu w raporcie JPK_VAT">
+                    <value id="161" priority="0" name="FK"/>
+                </parameter>
+                <parameter type="parameter" id="162" priority="31" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEX" name="Płeć 1">
+                    <value id="163" priority="0" name="Mężczyzna" context_id="CONTEXT_SEX_MAN"/>
+                </parameter>
+                <parameter type="parameter" id="164" priority="32" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEX" name="Płeć 2">
+                    <value id="165" priority="0" name="Kobieta" context_id="CONTEXT_SEX_WOMAN"/>
+                </parameter>
+                <parameter type="parameter" id="166" priority="33" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEX" name="Płeć 3">
+                    <value id="167" priority="0" name="Unisex" context_id="CONTEXT_SEX_UNISEX"/>
+                </parameter>
+                <parameter type="parameter" id="168" priority="34" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEX" name="Płeć 4">
+                    <value id="169" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="section" id="228" priority="35" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" name="Sekcja parametrów 2"/>
+                <parameter type="parameter" id="170" priority="36" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 1">
+                    <value id="171" priority="0" name="domyślnie - pobrany z kategorii "
+                           context_id="CONTEXT_STD_UNIT_DEFAULT"/>
+                </parameter>
+                <parameter type="parameter" id="172" priority="37" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 2">
+                    <value id="173" priority="0" name="cena za litr/kilogram/kilometr"
+                           context_id="CONTEXT_STD_UNIT_WHOLE"/>
+                </parameter>
+                <parameter type="parameter" id="174" priority="38" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 3">
+                    <value id="175" priority="0" name="cena za 10 gram/10 mililitrów/10 metrów"
+                           context_id="CONTEXT_STD_UNIT_TENS"/>
+                </parameter>
+                <parameter type="parameter" id="176" priority="39" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 4">
+                    <value id="177" priority="0" name="cena za 100 gram/100 mililitrów/100 metrów"
+                           context_id="CONTEXT_STD_UNIT_HUNDREDS"/>
+                </parameter>
+                <parameter type="parameter" id="178" priority="40" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 5">
+                    <value id="179" priority="0" name="cena za gram/mililitr/metr" context_id="CONTEXT_STD_UNIT_ONES"/>
+                </parameter>
+                <parameter type="parameter" id="180" priority="41" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 1">
+                    <value id="181" priority="0" name="Wiosna" context_id="CONTEXT_SEASON_SPRING"/>
+                </parameter>
+                <parameter type="parameter" id="182" priority="42" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 2">
+                    <value id="183" priority="0" name="Lato" context_id="CONTEXT_SEASON_SUMMER"/>
+                </parameter>
+                <parameter type="parameter" id="184" priority="43" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 3">
+                    <value id="185" priority="0" name="Jesień" context_id="CONTEXT_SEASON_FALL"/>
+                </parameter>
+                <parameter type="parameter" id="186" priority="44" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 4">
+                    <value id="187" priority="0" name="Zima" context_id="CONTEXT_SEASON_WINTER"/>
+                </parameter>
+                <parameter type="parameter" id="188" priority="45" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 5">
+                    <value id="189" priority="0" name="Wiosna/Lato" context_id="CONTEXT_SEASON_SPRING_SUMMER"/>
+                </parameter>
+                <parameter type="parameter" id="190" priority="46" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 6">
+                    <value id="191" priority="0" name="Jesień/Zima" context_id="CONTEXT_SEASON_FALL_WINTER"/>
+                </parameter>
+                <parameter type="parameter" id="192" priority="47" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 7">
+                    <value id="193" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="194" priority="48" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 1">
+                    <value id="195" priority="0" name="Nowy" context_id="CONTEXT_STATE_NEW"/>
+                </parameter>
+                <parameter type="parameter" id="196" priority="49" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 2">
+                    <value id="197" priority="0" name="Nowy: inne - zobacz szczegóły"
+                           context_id="CONTEXT_STATE_NEW_OTHERS"/>
+                </parameter>
+                <parameter type="parameter" id="198" priority="50" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 3">
+                    <value id="199" priority="0" name="Nowy z wadą" context_id="CONTEXT_STATE_NEW_WITH_DEFECTS"/>
+                </parameter>
+                <parameter type="parameter" id="200" priority="51" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 4">
+                    <value id="201" priority="0" name="Używany" context_id="CONTEXT_STATE_USED"/>
+                </parameter>
+                <parameter type="parameter" id="202" priority="52" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 5">
+                    <value id="203" priority="0" name="Odnowiony przez producenta"
+                           context_id="CONTEXT_STATE_REFURBISHED_BY_PRODUCER"/>
+                </parameter>
+                <parameter type="parameter" id="204" priority="53" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 6">
+                    <value id="205" priority="0" name="Odnowiony przez sprzedawcę"
+                           context_id="CONTEXT_STATE_REFURBISHED_BY_SELLER"/>
+                </parameter>
+                <parameter type="parameter" id="206" priority="54" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 7">
+                    <value id="207" priority="0" name="Na części lub zepsuty"
+                           context_id="CONTEXT_STATE_FOR_PARTS_OR_BROKEN"/>
+                </parameter>
+                <parameter type="parameter" id="208" priority="55" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 8">
+                    <value id="209" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="74" priority="56" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_WIDTH_CM"
+                           name="Szerokość towaru w centymetrach">
+                    <value id="211" priority="0" name="1255"/>
+                </parameter>
+                <parameter type="parameter" id="212" priority="57" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_ONLY_ADULTS" name="Tylko dla dorosłych 1">
+                    <value id="213" priority="0" name="Tak" context_id="CONTEXT_ONLY_ADULTS_YES"/>
+                </parameter>
+                <parameter type="parameter" id="214" priority="58" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_ONLY_ADULTS" name="Tylko dla dorosłych 2">
+                    <value id="215" priority="0" name="Nie" context_id="CONTEXT_ONLY_ADULTS_NO"/>
+                </parameter>
+                <parameter type="parameter" id="216" priority="59" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_ONLY_ADULTS" name="Tylko dla dorosłych 3">
+                    <value id="217" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="76" priority="60" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_OVERHEAD_WEIGHT"
+                           name="Waga gabarytowa w gramach">
+                    <value id="218" priority="0" name="26271333.33"/>
+                </parameter>
+                <parameter type="parameter" id="219" priority="61" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_WEIGHT_NET" name="Waga netto">
+                    <value id="220" priority="0" name="1100"/>
+                </parameter>
+                <parameter type="parameter" id="221" priority="62" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_WEIGHT_PACKAGING" name="Waga opakowania">
+                    <value id="222" priority="0" name="253"/>
+                </parameter>
+                <parameter type="parameter" id="223" priority="63" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_WEIGHT" name="Waga towaru w gramach">
+                    <value id="224" priority="0" name="10020"/>
+                </parameter>
+                <parameter type="parameter" id="225" priority="64" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_WEIGHT_SI"
+                           name="Waga towaru w kilogramach">
+                    <value id="226" priority="0" name="1222"/>
+                </parameter>
+                <parameter type="parameter" id="72" priority="65" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_HEIGHT_CM"
+                           name="Wysokość towaru w centymetrach">
+                    <value id="113" priority="0" name="1256"/>
+                </parameter>
+                <parameter type="parameter" id="326" priority="66" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="HEEL_HEIGHT" name="Wysokość obcasa w cm">
+                    <value id="327" priority="0" name="25"/>
+                </parameter>
+            </parameters>
+        </product>
+        <product id="42" currency="PLN" code_on_card="34567-multi" producer_code_standard="OTHER" type="bundle"
+                 vat="23.0" site="1">
+            <producer id="1308137276" name="Sony"/>
+            <category id="1214553882" name="Kategoria testowa 1/Podkategoria 3"/>
+            <category_idosell id="55"
+                              path="Aparaty, kamery i przyrządy optyczne &gt; Akcesoria do aparatów, kamer i przyrządów optycznych &gt; Zapasowe kable do aparatów, kamer i przyrządów optycznych"/>
+            <unit id="2" name="komplet"/>
+            <card url="https://iof.shop.pl/pl/products/przykladowy-zestaw-trzech-skladowych-42-42.html"/>
+            <description>
+                <name xml:lang="eng"><![CDATA[Example set of three components 42]]></name>
+                <name xml:lang="pol"><![CDATA[Przykładowy zestaw trzech składowych 42]]></name>
+                <iaiext:search_keywords xml:lang="pol" iaiext:site_id="1">Domyślne meta słowa pol
+                </iaiext:search_keywords>
+                <long_desc xml:lang="eng"><![CDATA[Long description for the kit 42]]></long_desc>
+                <long_desc xml:lang="pol"><![CDATA[Opis długi dla zestawu 42]]></long_desc>
+                <short_desc xml:lang="eng"><![CDATA[Short description for kit 42]]></short_desc>
+                <short_desc xml:lang="pol"><![CDATA[Opis krótki dla zestawu 42]]></short_desc>
+            </description>
+            <price gross="130.3" net="105.93"/>
+            <srp gross="1600.99" net="1301.62"/>
+            <strikethrough_retail_price gross="1200.11" net="975.7"/>
+            <strikethrough_wholesale_price gross="899.99" net="731.7"/>
+            <sizes iaiext:group_name="One size" iaiext:group_id="-1" iaiext:sizeList="full">
+                <size id="uniw" name="one size" panel_name="one size" code="42-uniw" weight="4419"
+                      iaiext:weight_net="3360" code_producer="7071907772338" iaiext:code_external="6071907771111"
+                      iaiext:priority="0">
+                    <price gross="130.3" net="105.93"/>
+                    <srp gross="1600.99" net="1301.62"/>
+                    <strikethrough_retail_price gross="1200.11" net="975.7"/>
+                    <strikethrough_wholesale_price gross="899.99" net="731.7"/>
+                    <stock id="1" quantity="29" available_stock_quantity="29" stock_quantity="0.000"/>
+                </size>
+            </sizes>
+            <images>
+                <large>
+                    <image iaiext:priority="1" url="https://iof.shop.pl/data/gfx/pictures/large/2/4/42_1.jpg"
+                           hash="6aedf8328e7964f7e33ce8107f38b0f4" changed="2022-01-20 21:18:43" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="2" url="https://iof.shop.pl/data/gfx/pictures/large/2/4/42_2.jpg"
+                           hash="a1eff43957ad81da6bd0287ccd74fc80" changed="2022-01-20 21:18:45" width="4000"
+                           height="2852"/>
+                    <image iaiext:priority="3" url="https://iof.shop.pl/data/gfx/pictures/large/2/4/42_3.jpg"
+                           hash="2af5c7d65a69c52969b23fcb56fa88e7" changed="2022-01-20 21:18:49" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="4" url="https://iof.shop.pl/data/gfx/pictures/large/2/4/42_4.jpg"
+                           hash="bc1fcb070fe3a6098471e0d38c0cb4c1" changed="2022-01-20 21:18:53" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="5" url="https://iof.shop.pl/data/gfx/pictures/large/2/4/42_5.jpg"
+                           hash="3bdb6801710e0f4de991b7f91e212bba" changed="2022-01-20 21:18:57" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="6" url="https://iof.shop.pl/data/gfx/pictures/large/2/4/42_6.jpg"
+                           hash="cf08809444008f9710f0840bd0658184" changed="2022-01-20 21:19:00" width="4000"
+                           height="2667"/>
+                </large>
+                <icons>
+                    <icon url="https://iof.shop.pl/data/gfx/icons/large/2/4/42.jpg"
+                          hash="7c020cf7d314e533e11ac25297538b5d" changed="2022-01-20 21:32:56" width="350"
+                          height="233"/>
+                    <auction_icon url="https://iof.shop.pl/data/gfx/icons/auctions/2/4/42.jpg"
+                                  changed="2022-01-20 21:19:53" hash="7c020cf7d314e533e11ac25297538b5d" width="4000"
+                                  height="2667"/>
+                    <group_icon url="https://iof.shop.pl/data/gfx/icons/versions/2/4/42.jpg"
+                                hash="7c020cf7d314e533e11ac25297538b5d" changed="2022-01-20 21:32:56" width="200"
+                                height="134"/>
+                </icons>
+            </images>
+            <attachments>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=15_42_pol_a00c346a8e1935c0482e6431b9b95d86"
+                      priority="1" attachment_file_type="image" attachment_file_extension="jpg" enable="all"
+                      download_log="y">
+                    <name xml:lang="eng"><![CDATA[Attachment no. 1 / for everyone]]></name>
+                </file>
+                <file version="full"
+                      url="https://iof.shop.pl/settings.php?getAttachmentp=16_42_pol_12fe7ea57d63f4deeb18b2d822b3c48b"
+                      priority="2" attachment_file_type="audio" attachment_file_extension="mp3"
+                      enable="wholesaler_and_ordered" download_log="y">
+                    <name xml:lang="eng"><![CDATA[Attachment No. 2 / for wholesalers and buyers]]></name>
+                </file>
+            </attachments>
+            <parameters>
+                <parameter type="section" id="117" priority="0" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" name="Sekcja parametrów 1 "/>
+                <parameter type="parameter" id="326" priority="1" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="HEEL_HEIGHT" name="Wysokość obcasa w cm">
+                    <value id="327" priority="0" name="25"/>
+                </parameter>
+                <parameter type="parameter" id="118" priority="2" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_LENGTH_CM"
+                           name="Długość towaru w centymetrach">
+                    <value id="119" priority="0" name="100"/>
+                </parameter>
+                <parameter type="parameter" id="120" priority="3" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_LENGTH"
+                           name="Długość towaru w metrach">
+                    <value id="121" priority="0" name="200"/>
+                </parameter>
+                <parameter type="parameter" id="338" priority="4" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MOVIE_RELEASE_DATE" name="Film: data wydania">
+                    <value id="339" priority="0" name="2022-01-20"/>
+                </parameter>
+                <parameter type="parameter" id="340" priority="5" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MOVIE_ORIGINAL_TITLE"
+                           name="Film: tytuł oryginalny w języku angielskim">
+                    <value id="341" priority="0" name="It takes two"/>
+                </parameter>
+                <parameter type="parameter" id="122" priority="6" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_AGE_GROUP" name="Grupa wiekowa 1">
+                    <value id="123" priority="0" name="Dorośli" context_id="CONTEXT_AGE_GROUP_ADULT"/>
+                </parameter>
+                <parameter type="parameter" id="124" priority="7" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_AGE_GROUP" name="Grupa wiekowa 2">
+                    <value id="125" priority="0" name="Dzieci" context_id="CONTEXT_AGE_GROUP_MINOR"/>
+                </parameter>
+                <parameter type="parameter" id="126" priority="8" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_AGE_GROUP" name="Grupa wiekowa 3">
+                    <value id="127" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="128" priority="9" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_COLOR" name="Kolor">
+                    <value id="129" priority="0" name="czerwony"/>
+                </parameter>
+                <parameter type="parameter" id="342" priority="10" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_BOOK_AUTHOR" name="Książka: Autor">
+                    <value id="343" priority="0" name="Coben"/>
+                </parameter>
+                <parameter type="parameter" id="344" priority="11" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_BOOK_PUBLICATION_DATE"
+                           name="Książka: Data wydania">
+                    <value id="345" priority="0" name="2019-05-15"/>
+                </parameter>
+                <parameter type="parameter" id="346" priority="12" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_BOOK_PAGES_NUMBER" name="Książka: Ilość stron">
+                    <value id="347" priority="0" name="1255"/>
+                </parameter>
+                <parameter type="parameter" id="348" priority="13" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_BOOK_PUBLICATION_LANGUAGE"
+                           name="Książka: Język wydania ">
+                    <value id="349" priority="0" name="Polski"/>
+                </parameter>
+                <parameter type="parameter" id="130" priority="14" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_PRESCRIPTION_MEDICINE" name="Lek na receptę 1">
+                    <value id="131" priority="0" name="Tak" context_id="CONTEXT_PRESCRIPTION_MEDICINE_YES"/>
+                </parameter>
+                <parameter type="parameter" id="132" priority="15" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_PRESCRIPTION_MEDICINE" name="Lek na receptę 2">
+                    <value id="133" priority="0" name="Nie" context_id="CONTEXT_PRESCRIPTION_MEDICINE_NO"/>
+                </parameter>
+                <parameter type="parameter" id="134" priority="16" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_PRESCRIPTION_MEDICINE" name="Lek na receptę 3">
+                    <value id="135" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="136" priority="17" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_QUANTITY_PACKAGE"
+                           name="Liczba sztuk w opakowaniu dla jednostki standardowej">
+                    <value id="137" priority="0" name="300"/>
+                </parameter>
+                <parameter type="parameter" id="138" priority="18" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="y" context_id="CONTEXT_MAX_SIZE_QUANTITY_PER_RETAIL_ORDER"
+                           name="Maksymalna liczba pojedynczego rozmiaru w zamówieniu">
+                    <value id="139" priority="0" name="20"/>
+                </parameter>
+                <parameter type="parameter" id="140" priority="19" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MAX_SIZE_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Maksymalna liczba pojedynczego rozmiaru w zamówieniu hurtowym">
+                    <value id="141" priority="0" name="10"/>
+                </parameter>
+                <parameter type="parameter" id="142" priority="20" distinction="y" group_distinction="n" hide="y"
+                           auction_template_hide="y" context_id="CONTEXT_MAX_QUANTITY_PER_RETAIL_ORDER"
+                           name="Maksymalna liczba towaru w zamówieniu">
+                    <value id="143" priority="0" name="45"/>
+                </parameter>
+                <parameter type="parameter" id="144" priority="21" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MAX_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Maksymalna liczba towaru w zamówieniu hurtowym">
+                    <value id="145" priority="0" name="65"/>
+                </parameter>
+                <parameter type="parameter" id="146" priority="22" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_SIZE_QUANTITY_PER_RETAIL_ORDER"
+                           name="Minimalna liczba pojedynczego rozmiaru w zamówieniu">
+                    <value id="147" priority="0" name="1"/>
+                </parameter>
+                <parameter type="parameter" id="148" priority="23" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_SIZE_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Minimalna liczba pojedynczego rozmiaru w zamówieniu hurtowym">
+                    <value id="149" priority="0" name="1"/>
+                </parameter>
+                <parameter type="parameter" id="150" priority="24" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_RETAIL_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu">
+                    <value id="329" priority="0" name="2"/>
+                </parameter>
+                <parameter type="parameter" id="68" priority="25" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu hurtowym">
+                    <value id="110" priority="0" name="1"/>
+                </parameter>
+                <parameter type="parameter" id="152" priority="26" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_MODEL" name="Model">
+                    <value id="333" priority="0" name="GHK 1999"/>
+                </parameter>
+                <parameter type="parameter" id="154" priority="27" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_VOLUME_SI"
+                           name="Objętość towaru w litrach dla jednostki standardowej">
+                    <value id="155" priority="0" name="238"/>
+                </parameter>
+                <parameter type="parameter" id="156" priority="28" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_VOLUME_M3"
+                           name="Objętość towaru w metrach sześciennych">
+                    <value id="157" priority="0" name="452"/>
+                </parameter>
+                <parameter type="parameter" id="158" priority="29" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_VOLUME"
+                           name="Objętość towaru w mililitrach dla jednostki standardowej">
+                    <value id="159" priority="0" name="111111"/>
+                </parameter>
+                <parameter type="parameter" id="160" priority="30" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_DOCUMENTS_JPK_VAT"
+                           name="Oznaczenia dokumentu w raporcie JPK_VAT">
+                    <value id="161" priority="0" name="FK"/>
+                </parameter>
+                <parameter type="parameter" id="162" priority="31" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEX" name="Płeć 1">
+                    <value id="163" priority="0" name="Mężczyzna" context_id="CONTEXT_SEX_MAN"/>
+                </parameter>
+                <parameter type="parameter" id="164" priority="32" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEX" name="Płeć 2">
+                    <value id="165" priority="0" name="Kobieta" context_id="CONTEXT_SEX_WOMAN"/>
+                </parameter>
+                <parameter type="parameter" id="166" priority="33" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEX" name="Płeć 3">
+                    <value id="167" priority="0" name="Unisex" context_id="CONTEXT_SEX_UNISEX"/>
+                </parameter>
+                <parameter type="parameter" id="168" priority="34" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEX" name="Płeć 4">
+                    <value id="169" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="section" id="228" priority="35" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" name="Sekcja parametrów 2"/>
+                <parameter type="parameter" id="170" priority="36" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 1">
+                    <value id="171" priority="0" name="domyślnie - pobrany z kategorii "
+                           context_id="CONTEXT_STD_UNIT_DEFAULT"/>
+                </parameter>
+                <parameter type="parameter" id="172" priority="37" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 2">
+                    <value id="173" priority="0" name="cena za litr/kilogram/kilometr"
+                           context_id="CONTEXT_STD_UNIT_WHOLE"/>
+                </parameter>
+                <parameter type="parameter" id="174" priority="38" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 3">
+                    <value id="175" priority="0" name="cena za 10 gram/10 mililitrów/10 metrów"
+                           context_id="CONTEXT_STD_UNIT_TENS"/>
+                </parameter>
+                <parameter type="parameter" id="176" priority="39" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 4">
+                    <value id="177" priority="0" name="cena za 100 gram/100 mililitrów/100 metrów"
+                           context_id="CONTEXT_STD_UNIT_HUNDREDS"/>
+                </parameter>
+                <parameter type="parameter" id="178" priority="40" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_AREA_M2"
+                           name="Powierzchnia towaru w metrach kwadratowych 5">
+                    <value id="179" priority="0" name="cena za gram/mililitr/metr" context_id="CONTEXT_STD_UNIT_ONES"/>
+                </parameter>
+                <parameter type="parameter" id="180" priority="41" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 1">
+                    <value id="181" priority="0" name="Wiosna" context_id="CONTEXT_SEASON_SPRING"/>
+                </parameter>
+                <parameter type="parameter" id="182" priority="42" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 2">
+                    <value id="183" priority="0" name="Lato" context_id="CONTEXT_SEASON_SUMMER"/>
+                </parameter>
+                <parameter type="parameter" id="184" priority="43" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 3">
+                    <value id="185" priority="0" name="Jesień" context_id="CONTEXT_SEASON_FALL"/>
+                </parameter>
+                <parameter type="parameter" id="186" priority="44" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 4">
+                    <value id="187" priority="0" name="Zima" context_id="CONTEXT_SEASON_WINTER"/>
+                </parameter>
+                <parameter type="parameter" id="188" priority="45" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 5">
+                    <value id="189" priority="0" name="Wiosna/Lato" context_id="CONTEXT_SEASON_SPRING_SUMMER"/>
+                </parameter>
+                <parameter type="parameter" id="190" priority="46" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 6">
+                    <value id="191" priority="0" name="Jesień/Zima" context_id="CONTEXT_SEASON_FALL_WINTER"/>
+                </parameter>
+                <parameter type="parameter" id="192" priority="47" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_SEASON" name="Sezon 7">
+                    <value id="193" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="194" priority="48" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 1">
+                    <value id="195" priority="0" name="Nowy" context_id="CONTEXT_STATE_NEW"/>
+                </parameter>
+                <parameter type="parameter" id="196" priority="49" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 2">
+                    <value id="197" priority="0" name="Nowy: inne - zobacz szczegóły"
+                           context_id="CONTEXT_STATE_NEW_OTHERS"/>
+                </parameter>
+                <parameter type="parameter" id="198" priority="50" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 3">
+                    <value id="199" priority="0" name="Nowy z wadą" context_id="CONTEXT_STATE_NEW_WITH_DEFECTS"/>
+                </parameter>
+                <parameter type="parameter" id="200" priority="51" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 4">
+                    <value id="201" priority="0" name="Używany" context_id="CONTEXT_STATE_USED"/>
+                </parameter>
+                <parameter type="parameter" id="202" priority="52" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 5">
+                    <value id="203" priority="0" name="Odnowiony przez producenta"
+                           context_id="CONTEXT_STATE_REFURBISHED_BY_PRODUCER"/>
+                </parameter>
+                <parameter type="parameter" id="204" priority="53" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 6">
+                    <value id="205" priority="0" name="Odnowiony przez sprzedawcę"
+                           context_id="CONTEXT_STATE_REFURBISHED_BY_SELLER"/>
+                </parameter>
+                <parameter type="parameter" id="206" priority="54" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 7">
+                    <value id="207" priority="0" name="Na części lub zepsuty"
+                           context_id="CONTEXT_STATE_FOR_PARTS_OR_BROKEN"/>
+                </parameter>
+                <parameter type="parameter" id="208" priority="55" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STATE" name="Stan 8">
+                    <value id="209" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="74" priority="56" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_WIDTH_CM"
+                           name="Szerokość towaru w centymetrach">
+                    <value id="211" priority="0" name="1255"/>
+                </parameter>
+                <parameter type="parameter" id="212" priority="57" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_ONLY_ADULTS" name="Tylko dla dorosłych 1">
+                    <value id="213" priority="0" name="Tak" context_id="CONTEXT_ONLY_ADULTS_YES"/>
+                </parameter>
+                <parameter type="parameter" id="214" priority="58" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_ONLY_ADULTS" name="Tylko dla dorosłych 2">
+                    <value id="215" priority="0" name="Nie" context_id="CONTEXT_ONLY_ADULTS_NO"/>
+                </parameter>
+                <parameter type="parameter" id="216" priority="59" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_ONLY_ADULTS" name="Tylko dla dorosłych 3">
+                    <value id="217" priority="0" name="* niewybrany"/>
+                </parameter>
+                <parameter type="parameter" id="76" priority="60" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_OVERHEAD_WEIGHT"
+                           name="Waga gabarytowa w gramach">
+                    <value id="218" priority="0" name="26271333.33"/>
+                </parameter>
+                <parameter type="parameter" id="219" priority="61" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_WEIGHT_NET" name="Waga netto">
+                    <value id="220" priority="0" name="1100"/>
+                </parameter>
+                <parameter type="parameter" id="221" priority="62" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_WEIGHT_PACKAGING" name="Waga opakowania">
+                    <value id="222" priority="0" name="253"/>
+                </parameter>
+                <parameter type="parameter" id="223" priority="63" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_WEIGHT" name="Waga towaru w gramach">
+                    <value id="224" priority="0" name="10020"/>
+                </parameter>
+                <parameter type="parameter" id="225" priority="64" distinction="n" group_distinction="n" hide="n"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_WEIGHT_SI"
+                           name="Waga towaru w kilogramach">
+                    <value id="226" priority="0" name="1222"/>
+                </parameter>
+                <parameter type="parameter" id="72" priority="65" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_HEIGHT_CM"
+                           name="Wysokość towaru w centymetrach">
+                    <value id="113" priority="0" name="1256"/>
+                </parameter>
+                <parameter type="parameter" id="238" priority="66" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" name="Materiał">
+                    <value id="239" priority="0" name="bawełna"/>
+                </parameter>
+            </parameters>
+            <bundled type="unspecified">
+                <product id="33" quantity="1.000" type="client_chooses_variant"/>
+                <product id="34" quantity="1.000" type="client_chooses_size"/>
+                <product id="35" quantity="1.000" type="client_chooses_defined_size_as_separate_items ">
+                    <sizes>
+                        <size id="1" name="xxs" iaiext:code_external="35-101-35-101"
+                              iaiext:code_producer="00000000351010" iaiext:code="35-1"/>
+                    </sizes>
+                </product>
+                <product id="35" quantity="1.000" type="client_chooses_defined_size_as_separate_items ">
+                    <sizes>
+                        <size id="2" name="xs" iaiext:code_external="35-202-35-202"
+                              iaiext:code_producer="00000000352024" iaiext:code="35-2"/>
+                    </sizes>
+                </product>
+                <product id="35" quantity="1.000" type="client_chooses_defined_size_as_separate_items ">
+                    <sizes>
+                        <size id="3" name="s" iaiext:code_external="35-303-35-303" iaiext:code_producer="00000000353038"
+                              iaiext:code="35-3"/>
+                    </sizes>
+                </product>
+            </bundled>
+        </product>
+        <product id="44" currency="PLN" code_on_card="A8A0-4956F666" producer_code_standard="OTHER" type="collection"
+                 vat="23.0" site="1">
+            <producer id="1513170628" name="MHT"/>
+            <category id="1149604952" name="Komplety i figi"/>
+            <unit id="0" name="szt."/>
+            <series id="4" name="Kolekcja zimowa"/>
+            <warranty id="2" type="producer" period="24" name="Gwarancja producenta na 2 lata"/>
+            <card url="https://iof.shop.pl/pl/products/przykladowa-kolekcja-trzech-skladowych-44-44.html"/>
+            <description>
+                <name xml:lang="eng"><![CDATA[Sample collection of three components 44]]></name>
+                <name xml:lang="pol"><![CDATA[Przykładowa kolekcja trzech składowych 44]]></name>
+                <long_desc xml:lang="eng"><![CDATA[Long description of the three component collection 44]]></long_desc>
+                <long_desc xml:lang="pol"><![CDATA[Opis długi kolekcji trzech składowych 44]]></long_desc>
+                <short_desc xml:lang="eng">
+                    <![CDATA[Short description for collection of three components 44]]></short_desc>
+                <short_desc xml:lang="pol"><![CDATA[Opis krótki kolekcji trzech składowych 44]]></short_desc>
+            </description>
+            <price gross="125" net="101.63"/>
+            <srp gross="300" net="243.9"/>
+            <sizes iaiext:group_name="One size" iaiext:group_id="-1" iaiext:sizeList="full">
+                <size id="uniw" name="one size" panel_name="one size" code="44-uniw" weight="2816"
+                      iaiext:weight_net="2210" code_producer="4012345" iaiext:code_external="00054012345"
+                      iaiext:priority="0">
+                    <price gross="125" net="101.63"/>
+                    <srp gross="300" net="243.9"/>
+                    <stock id="1" quantity="-1" available_stock_quantity="-1" stock_quantity="0.000"/>
+                </size>
+            </sizes>
+            <images>
+                <large>
+                    <image iaiext:priority="1" url="https://iof.shop.pl/data/gfx/pictures/large/4/4/44_1.jpg"
+                           hash="0d0a3e775aa6d399626e0e1e89e32664" changed="2022-01-20 22:12:12" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="2" url="https://iof.shop.pl/data/gfx/pictures/large/4/4/44_2.jpg"
+                           hash="667f74cc0a1816b23179005bd372ab4d" changed="2022-01-20 22:12:15" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="3" url="https://iof.shop.pl/data/gfx/pictures/large/4/4/44_3.jpg"
+                           hash="dd30f3ff0e1fe52a3a5886a1c33aa5a4" changed="2022-01-20 22:12:17" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="4" url="https://iof.shop.pl/data/gfx/pictures/large/4/4/44_4.jpg"
+                           hash="61907a200cb346d59e5bf14ee77855a7" changed="2022-01-20 22:12:19" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="5" url="https://iof.shop.pl/data/gfx/pictures/large/4/4/44_5.jpg"
+                           hash="4b839f8dc5d6a7550abad35af3214cdc" changed="2022-01-20 22:12:21" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="6" url="https://iof.shop.pl/data/gfx/pictures/large/4/4/44_6.jpg"
+                           hash="f3ca57196f4351a9741285b60394a289" changed="2022-01-20 22:12:23" width="4000"
+                           height="2667"/>
+                </large>
+                <icons>
+                    <icon url="https://iof.shop.pl/data/gfx/icons/large/4/4/44.jpg"
+                          hash="a2ebb10988e389b96ecd3ac419ffadfb" changed="2022-01-20 22:33:13" width="350"
+                          height="233"/>
+                    <group_icon url="https://iof.shop.pl/data/gfx/icons/versions/4/4/44.jpg"
+                                hash="a2ebb10988e389b96ecd3ac419ffadfb" changed="2022-01-20 22:33:13" width="200"
+                                height="134"/>
+                </icons>
+            </images>
+            <parameters>
+                <parameter type="parameter" id="158" priority="0" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_VOLUME"
+                           name="Objętość towaru w mililitrach dla jednostki standardowej">
+                    <value id="405" priority="0" name="40" context_id="CONTEXT_STD_UNIT_DEFAULT"/>
+                </parameter>
+                <parameter type="parameter" id="66" priority="1" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_RETAIL_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu detalicznym">
+                    <value id="406" priority="0" name="1"/>
+                </parameter>
+                <parameter type="parameter" id="68" priority="2" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu hurtowym">
+                    <value id="407" priority="0" name="2"/>
+                </parameter>
+                <parameter type="parameter" id="118" priority="3" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_LENGTH_CM"
+                           name="Długość towaru w centymetrach">
+                    <value id="362" priority="0" name="30"/>
+                </parameter>
+                <parameter type="parameter" id="72" priority="4" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_HEIGHT_CM"
+                           name="Wysokość towaru w centymetrach">
+                    <value id="363" priority="0" name="10"/>
+                </parameter>
+                <parameter type="parameter" id="74" priority="5" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_WIDTH_CM"
+                           name="Szerokość towaru w centymetrach">
+                    <value id="364" priority="0" name="40"/>
+                </parameter>
+                <parameter type="parameter" id="76" priority="6" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_OVERHEAD_WEIGHT"
+                           name="Waga gabarytowa w gramach">
+                    <value id="365" priority="0" name="2000"/>
+                </parameter>
+            </parameters>
+            <bundled type="unspecified">
+                <product id="33" quantity="1.000" type="client_chooses_defined_size_as_separate_items ">
+                    <sizes>
+                        <size id="7" name="xxl" iaiext:code_external="34567-77" iaiext:code_producer="0000034567777"
+                              iaiext:code="33-7"/>
+                        <size id="8" name="xxxl" iaiext:code_external="" iaiext:code_producer="" iaiext:code="33-8"/>
+                        <size id="9" name="xxxxl" iaiext:code_external="34567-99" iaiext:code_producer="0000034567999"
+                              iaiext:code="33-9"/>
+                    </sizes>
+                </product>
+                <product id="34" quantity="1.000" type="client_chooses_variant"/>
+                <product id="35" quantity="1.000" type="client_chooses_size"/>
+            </bundled>
+        </product>
+        <product id="45" currency="PLN" code_on_card="4357689070-4567" producer_code_standard="GTIN13" type="packaging"
+                 vat="23.0" site="1">
+            <producer id="1308137276" name="Sony"/>
+            <category id="1214553884" name="WIOSNA-LATO 2011/ATLETICO"/>
+            <unit id="0" name="szt."/>
+            <series id="5" name="Kolekcja damska"/>
+            <warranty id="2" type="producer" period="24" name="Gwarancja producenta na 2 lata"/>
+            <card url="https://iof.shop.pl/pl/products/przykladowe-opakowanie-45-45.html"/>
+            <description>
+                <name xml:lang="eng"><![CDATA[Sample packaging 45]]></name>
+                <name xml:lang="pol"><![CDATA[Przykładowe opakowanie 45]]></name>
+                <long_desc xml:lang="eng"><![CDATA[Long description of packaging 45]]></long_desc>
+                <long_desc xml:lang="pol"><![CDATA[Opis długi opakowania 45]]></long_desc>
+                <short_desc xml:lang="eng"><![CDATA[Short description of the packaging 45]]></short_desc>
+                <short_desc xml:lang="pol"><![CDATA[Opis krótki opakowania 45]]></short_desc>
+            </description>
+            <price gross="49.18" net="39.98"/>
+            <srp gross="0" net="0"/>
+            <sizes iaiext:group_name="One size" iaiext:group_id="-1" iaiext:sizeList="full">
+                <size id="uniw" name="one size" panel_name="one size" code="45-uniw" weight="10" iaiext:weight_net="20"
+                      code_producer="5906961128614" iaiext:code_external="4357689070-4567" iaiext:priority="0">
+                    <price gross="49.18" net="39.98"/>
+                    <srp gross="0" net="0"/>
+                    <stock id="1" quantity="150" available_stock_quantity="150" stock_quantity="150.000"/>
+                </size>
+            </sizes>
+            <images>
+                <large>
+                    <image iaiext:priority="1" url="https://iof.shop.pl/data/gfx/pictures/large/5/4/45_2.jpg"
+                           hash="2b2b2ef4769fde521f9e0ea979526e6b" changed="2022-01-20 23:08:57" width="4000"
+                           height="2667"/>
+                    <image iaiext:priority="2" url="https://iof.shop.pl/data/gfx/pictures/large/5/4/45_1.jpg"
+                           hash="5f2d3aed93aa3f0a7c9a277d81fec401" changed="2022-01-20 22:45:45" width="2952"
+                           height="2952"/>
+                </large>
+                <icons>
+                    <icon url="https://iof.shop.pl/data/gfx/icons/large/5/4/45.jpg"
+                          hash="44180b1dc7d9997df7c14754a5aa32b4" changed="2022-01-20 23:30:11" width="350"
+                          height="233"/>
+                    <auction_icon url="https://iof.shop.pl/data/gfx/icons/auctions/5/4/45.jpg"
+                                  changed="2022-01-20 23:09:05" hash="44180b1dc7d9997df7c14754a5aa32b4" width="4000"
+                                  height="2667"/>
+                    <group_icon url="https://iof.shop.pl/data/gfx/icons/versions/5/4/45.jpg"
+                                hash="44180b1dc7d9997df7c14754a5aa32b4" changed="2022-01-20 23:30:11" width="200"
+                                height="134"/>
+                </icons>
+            </images>
+            <parameters>
+                <parameter type="parameter" id="156" priority="0" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_VOLUME_M3"
+                           name="Objętość towaru w metrach sześciennych">
+                    <value id="376" priority="0" name="5" context_id="CONTEXT_STD_UNIT_DEFAULT"/>
+                </parameter>
+                <parameter type="parameter" id="66" priority="1" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_RETAIL_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu detalicznym">
+                    <value id="377" priority="0" name="1"/>
+                </parameter>
+                <parameter type="parameter" id="68" priority="2" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu hurtowym">
+                    <value id="378" priority="0" name="1"/>
+                </parameter>
+                <parameter type="parameter" id="118" priority="3" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_LENGTH_CM"
+                           name="Długość towaru w centymetrach">
+                    <value id="353" priority="0" name="10"/>
+                </parameter>
+                <parameter type="parameter" id="72" priority="4" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_HEIGHT_CM"
+                           name="Wysokość towaru w centymetrach">
+                    <value id="363" priority="0" name="10"/>
+                </parameter>
+                <parameter type="parameter" id="74" priority="5" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_WIDTH_CM"
+                           name="Szerokość towaru w centymetrach">
+                    <value id="379" priority="0" name="10"/>
+                </parameter>
+                <parameter type="parameter" id="76" priority="6" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_OVERHEAD_WEIGHT"
+                           name="Waga gabarytowa w gramach">
+                    <value id="380" priority="0" name="166.67"/>
+                </parameter>
+            </parameters>
+        </product>
+        <product id="47" currency="PLN" code_on_card="9788-3799-47898" producer_code_standard="ISBN13" type="service"
+                 vat="23.0" site="1">
+            <producer id="1513170628" name="MHT"/>
+            <category id="1214553813" name="Kategoria testowa 3"/>
+            <unit id="256" name="usł."/>
+            <series id="6" name="Kolekcja dziecięca"/>
+            <warranty id="3" type="producer" period="60" name="Gwarancja producenta na 5 lat"/>
+            <card url="https://iof.shop.pl/pl/products/przykladowa-usluga-47-47.html"/>
+            <description>
+                <name xml:lang="eng"><![CDATA[Sample service 47]]></name>
+                <name xml:lang="pol"><![CDATA[Przykładowa usługa 47]]></name>
+                <long_desc xml:lang="eng"><![CDATA[Long description of service 47]]></long_desc>
+                <long_desc xml:lang="pol"><![CDATA[Opis długi usługi 47]]></long_desc>
+                <short_desc xml:lang="eng"><![CDATA[Short service description 47]]></short_desc>
+                <short_desc xml:lang="pol"><![CDATA[Opis krótki usługi 47]]></short_desc>
+            </description>
+            <price gross="406.81" net="330.74"/>
+            <srp gross="0" net="0"/>
+            <sizes iaiext:group_name="One size" iaiext:group_id="-1" iaiext:sizeList="full">
+                <size id="uniw" name="one size" panel_name="one size" code="47-uniw" weight="0" iaiext:weight_net="0"
+                      code_producer="9788379947898" iaiext:code_external="9788-3799-47898" iaiext:priority="0">
+                    <price gross="406.81" net="330.74"/>
+                    <srp gross="0" net="0"/>
+                    <stock id="1" quantity="-1" available_stock_quantity="-1" stock_quantity="-1"/>
+                </size>
+            </sizes>
+            <images>
+                <large>
+                    <image iaiext:priority="1" url="https://iof.shop.pl/data/gfx/pictures/large/7/4/47_1.jpg"
+                           hash="d9cc0245089f185a866372a0c18e5a9b" changed="2022-01-20 23:17:03" width="4000"
+                           height="2666"/>
+                </large>
+                <icons>
+                    <icon url="https://iof.shop.pl/data/gfx/icons/large/7/4/47.jpg"
+                          hash="93257bb0d4d2eb0a5fc21d30cb4318ea" changed="2022-01-20 23:30:10" width="350"
+                          height="233"/>
+                    <auction_icon url="https://iof.shop.pl/data/gfx/icons/auctions/7/4/47.jpg"
+                                  changed="2022-01-20 23:17:51" hash="93257bb0d4d2eb0a5fc21d30cb4318ea" width="4000"
+                                  height="2668"/>
+                    <group_icon url="https://iof.shop.pl/data/gfx/icons/versions/7/4/47.jpg"
+                                hash="93257bb0d4d2eb0a5fc21d30cb4318ea" changed="2022-01-20 23:30:10" width="200"
+                                height="134"/>
+                </icons>
+            </images>
+            <parameters>
+                <parameter type="parameter" id="120" priority="0" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_STD_UNIT_LENGTH"
+                           name="Długość towaru w metrach">
+                    <value id="402" priority="0" name="125" context_id="CONTEXT_STD_UNIT_DEFAULT"/>
+                </parameter>
+                <parameter type="parameter" id="66" priority="1" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_RETAIL_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu detalicznym">
+                    <value id="403" priority="0" name="8"/>
+                </parameter>
+                <parameter type="parameter" id="68" priority="2" distinction="n" group_distinction="n" hide="y"
+                           auction_template_hide="n" context_id="CONTEXT_MIN_QUANTITY_PER_WHOLESALE_ORDER"
+                           name="Minimalna liczba towaru w zamówieniu hurtowym">
+                    <value id="404" priority="0" name="5"/>
+                </parameter>
+            </parameters>
+        </product>
+    </products>
+</offer>

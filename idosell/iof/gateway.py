@@ -50,7 +50,7 @@ class LinkedFull(HashChangedUrl, tag="full"):
     changes: list[Change] = wrapped("changes", element(tag="change"))
 
 
-class Gateway(BaseXmlModel, tag="provider_description"):
+class Gateway(BaseXmlModel, tag="provider_description", search_mode="unordered"):
     file_format: str = attr()
     version: str = attr()
     generated_by: str = attr()
@@ -61,6 +61,8 @@ class Gateway(BaseXmlModel, tag="provider_description"):
     categories: HashChangedUrl
     sizes: HashChangedUrl
     producers: HashChangedUrl | None = element(default=None)
+    units: HashChangedUrl | None = element(default=None)
+    parameters: HashChangedUrl | None = element(default=None)
     stocks: HashChangedUrl | None = element(default=None)
     series: HashChangedUrl | None = element(default=None)
     warranties: HashChangedUrl | None = element(default=None)
