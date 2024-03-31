@@ -1,14 +1,22 @@
 from decimal import Decimal
 from typing import Literal
-
+from enum import StrEnum, auto
 from pydantic import HttpUrl
 from pydantic_xml.model import BaseXmlModel, element, attr, wrapped
 import datetime as dt
 
+YesNo = Literal["yes", "no"]
 
-class Price(BaseXmlModel):
+
+class PriceBase(BaseXmlModel):
     gross: Decimal | None = attr(default=None)
+    vat: Decimal | None = attr(default=None)
     net: Decimal = attr()
+
+
+class Price(PriceBase):
+    normal_retail_price: PriceBase | None = element(default=None)
+    normal_wholesale_price: PriceBase | None = element(default=None)
 
 
 class Stock(BaseXmlModel):
@@ -25,14 +33,14 @@ class Size(
     id: str = attr()
     name: str | None = attr(default=None)
     panel_name: str | None = attr(default=None)
-    code: str = attr()
+    code: str | None = attr(default=None)
     weight: str | None = attr(default=None)
     code_producer: str | None = attr(default=None)
 
-    price: Price
-    srp: Price
-    strikethrough_retail_price: Price | None = element(default=None)
-    strikethrough_wholesale_price: Price | None = element(default=None)
+    price: PriceBase | None = element(default=None)
+    srp: PriceBase | None = element(default=None)
+    strikethrough_retail_price: PriceBase | None = element(default=None)
+    strikethrough_wholesale_price: PriceBase | None = element(default=None)
     stock: list[Stock] | None = element(tag="stock", default=None)
 
 
@@ -53,11 +61,13 @@ class Warranty(IdName):
 
 class Name(BaseXmlModel, nsmap={"xml": "http://www.w3.org/XML/1998/namespace"}):
     lang: str = attr(name="lang", ns="xml")
+    type: str | None = attr(default=None)
     name: str
 
 
 class Card(BaseXmlModel):
     url: HttpUrl = attr()
+    url_mobile: HttpUrl | None = attr(default=None)
 
 
 class Version(BaseXmlModel):
@@ -77,10 +87,10 @@ class Description(
 
 class Image(BaseXmlModel, search_mode="unordered"):
     url: HttpUrl = attr()
-    hash: str = attr()
-    changed: dt.datetime = attr()
-    width: int = attr()
-    height: int = attr()
+    hash: str | None = attr(default=None)
+    changed: dt.datetime | None = attr(default=None)
+    width: int | None = attr(default=None)
+    height: int | None = attr(default=None)
 
 
 class Icons(BaseXmlModel):
@@ -94,6 +104,11 @@ class Images(BaseXmlModel):
     icons: Icons
 
 
+class Limitation(BaseXmlModel):
+    downloads: int | None = attr(default=None)
+    days: int | None = attr(default=None)
+
+
 class File(BaseXmlModel):
     version: str | None = attr(default=None)
     url: HttpUrl = attr()
@@ -102,6 +117,8 @@ class File(BaseXmlModel):
     attachment_file_extension: str | None = attr(default=None)
     enable: str | None = attr(default=None)
     download_log: str | None = attr(default=None)
+    names: list[Name] | None = element(tag="name", default=None)
+    limitations: list[Limitation] | None = element(tag="limitation", default=None)
 
 
 class IdName2(BaseXmlModel):
@@ -132,28 +149,68 @@ class Parameter(IdName):
     value: IdNamePrio | None = element(default=None)
 
 
+class BundleProduct(BaseXmlModel):
+    id: str = attr()
+    type: str = attr()
+    quantity: Decimal = attr()
+    sizes: list[Size] | None = wrapped(
+        "sizes", element(tag="size", default=None), default=None
+    )
+
+
+class Bundle(BaseXmlModel):
+    type: str = attr()
+    products: list[BundleProduct] = element(tag="product")
+
+
+class ProdCodeStandard(StrEnum):
+    AUTO = auto()
+    GTIN14 = auto()
+    GTIN13 = auto()
+    GTIN12 = auto()
+    GTIN8 = auto()
+    ISBN13 = auto()
+    ISBN10 = auto()
+    UPCE = auto()
+    MPN = auto()
+    OTHER = auto()
+
+    @classmethod
+    def _missing_(cls, value):
+        value = value.lower()
+        for member in cls:
+            if member == value:
+                return member
+        return None
+
+
 class Product(
     BaseXmlModel,
     tag="product",
     search_mode="unordered",
 ):
     id: str = attr()
-    currency: str = attr()
+    currency: str | None = attr(default=None)
     code_on_card: str = attr()
-    producer_code_standard: str = attr()
+    producer_code_standard: ProdCodeStandard = attr()
     type: str = attr()
     vat: Decimal | None = attr(default=None)
-    site: str = attr()
+    site: int | None = attr(default=None)
+    removed: YesNo | None = attr(default=None)
 
-    producer: IdName
-    category: IdName
+    producer: IdName | None = element(default=None)
+    category: IdName | None = element(default=None)
     category_idosell: IdPath | None = element(default=None)
+    unit: IdName | None = element(default=None)
+    series: IdName | None = element(default=None)
     warranty: Warranty | None = element(default=None)
-    card: Card
-    description: Description
+    card: Card | None = element(default=None)
+    description: Description | None = element(default=None)
 
-    price: Price = element()
-    srp: Price = element()
+    price: PriceBase | None = element(default=None)
+    srp: PriceBase | None = element(default=None)
+    strikethrough_retail_price: PriceBase | None = element(default=None)
+    strikethrough_wholesale_price: PriceBase | None = element(default=None)
 
     sizes: list[Size] = wrapped(
         "sizes",
@@ -166,19 +223,28 @@ class Product(
     )
     group: Group | None = element(default=None)
     parameters: list[Parameter] = wrapped("parameters", element(tag="parameter"))
+    bundled: Bundle | None = element(default=None)
+
+
+class Products(BaseXmlModel):
+    language: str = attr()
+    currency: str | None = attr(default=None)
+    iof_translation_generated: YesNo | None = attr(default=None)
+    products: list[Product] | None = element(default=None)
 
 
 class Full(
     BaseXmlModel,
     tag="offer",
     search_mode="unordered",
+    nsmap={
+        "xml": "http://www.w3.org/XML/1998/namespace",
+        "iaiext": "http://www.iai-shop.com/developers/iof/extensions.phtml",
+    },
 ):
-    file_format: str = attr(default="IOF")
-    version: str = attr(default="3.0")
-    extensions: Literal["yes", "no"] = attr(default="no")
-    generated: dt.datetime = attr()
-    expires: dt.datetime = attr()
-    products: list[Product] = wrapped(
-        "products",
-        element(tag="product"),
-    )
+    file_format: Literal["IOF"] = attr(default="IOF")
+    version: Decimal = attr(default="3.0")
+    extensions: YesNo = attr(default="no")
+    generated: dt.datetime | None = attr(default=None)
+    expires: dt.datetime | None = attr(default=None)
+    products: Products | None = element(default=None)
