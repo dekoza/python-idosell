@@ -75,6 +75,63 @@ class Description(
     short_descs: list[Name] = element(tag="short_desc")
 
 
+class Image(BaseXmlModel, search_mode="unordered"):
+    url: HttpUrl = attr()
+    hash: str = attr()
+    changed: dt.datetime = attr()
+    width: int = attr()
+    height: int = attr()
+
+
+class Icons(BaseXmlModel):
+    icon: Image
+    auction_icon: Image | None = element(default=None)
+    group_icon: Image | None = element(default=None)
+
+
+class Images(BaseXmlModel):
+    large: list[Image] = wrapped("large", element(tag="image"))
+    icons: Icons
+
+
+class File(BaseXmlModel):
+    version: str | None = attr(default=None)
+    url: HttpUrl = attr()
+    priority: int = attr()
+    attachment_file_type: str | None = attr(default=None)
+    attachment_file_extension: str | None = attr(default=None)
+    enable: str | None = attr(default=None)
+    download_log: str | None = attr(default=None)
+
+
+class IdName2(BaseXmlModel):
+    id: str = attr()
+    names: list[Name] = element(tag="name")
+
+
+class GroupByParam(IdName2):
+    product_value: IdName2 = element(tag="product_value")
+
+
+class Group(BaseXmlModel):
+    id: str = attr()
+    group_by_parameter: GroupByParam = element(tag="group_by_parameter")
+
+
+class IdNamePrio(IdName):
+    priority: int = attr()
+
+
+class Parameter(IdName):
+    type: str = attr()
+    priority: int = attr()
+    distinction: str = attr()
+    group_distinction: str = attr()
+    hide: str = attr()
+    auction_template_hide: str = attr()
+    value: IdNamePrio | None = element(default=None)
+
+
 class Product(
     BaseXmlModel,
     tag="product",
@@ -102,6 +159,13 @@ class Product(
         "sizes",
         element(tag="size"),
     )
+
+    images: Images
+    attachments: list[File] | None = wrapped(
+        "attachments", element(tag="file", default=None), default=None
+    )
+    group: Group | None = element(default=None)
+    parameters: list[Parameter] = wrapped("parameters", element(tag="parameter"))
 
 
 class Full(
