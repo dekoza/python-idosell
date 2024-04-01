@@ -238,6 +238,7 @@ class Full(
     tag="offer",
     search_mode="unordered",
     nsmap={
+        "iof": "http://www.iai-shop.com/developers/iof.phtml",
         "xml": "http://www.w3.org/XML/1998/namespace",
         "iaiext": "http://www.iai-shop.com/developers/iof/extensions.phtml",
     },

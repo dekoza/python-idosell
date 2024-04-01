@@ -1,4 +1,7 @@
-from pydantic import HttpUrl
+from decimal import Decimal
+
+import pendulum
+from pydantic import HttpUrl, conlist
 from pydantic_xml.model import BaseXmlModel, element, attr, wrapped
 import datetime as dt
 
@@ -21,24 +24,25 @@ class Offer(BaseXmlModel, tag="offer"):
 
 
 class Time(BaseXmlModel, tag="time"):
-    offers: list[Offer]
+    # offers: list[Offer]
+    offers: conlist(Offer, min_length=2, max_length=2)
 
 
 class Meta(BaseXmlModel, tag="meta"):
-    long_name: str = element()
+    long_name: str | None = element(default=None)
     short_name: str = element()
-    showcase_image: ShowcaseImage = element()
+    showcase_image: ShowcaseImage | None = element(default=None)
     email: str = element()
-    tel: str = element()
-    fax: str = element()
-    www: str = element()
-    address: Address
+    tel: str | None = element(default=None)
+    fax: str | None = element(default=None)
+    www: str | None = element(default=None)
+    address: Address | None = element(default=None)
     time: Time
 
 
 class HashChangedUrl(BaseXmlModel):
     url: HttpUrl = attr()
-    hash: str | None = attr(default=None)
+    hash: str = attr()
     changed: dt.datetime | None = attr(default=None)
 
 
@@ -51,15 +55,15 @@ class LinkedFull(HashChangedUrl, tag="full"):
 
 
 class Gateway(BaseXmlModel, tag="provider_description", search_mode="unordered"):
-    file_format: str = attr()
-    version: str = attr()
-    generated_by: str = attr()
-    generated: dt.datetime = attr()
+    file_format: str | None = attr(default="IOF")
+    version: Decimal | None = attr(default=Decimal("3.0"))
+    generated_by: str | None = attr(default=None)
+    generated: dt.datetime | None = attr(default_factory=pendulum.now)
     meta: Meta
-    full: LinkedFull
-    light: HashChangedUrl
+    full: LinkedFull | None = element(default=None)
+    light: HashChangedUrl | None = element(default=None)
     categories: HashChangedUrl
-    sizes: HashChangedUrl
+    sizes: HashChangedUrl | None = element(default=None)
     producers: HashChangedUrl | None = element(default=None)
     units: HashChangedUrl | None = element(default=None)
     parameters: HashChangedUrl | None = element(default=None)
