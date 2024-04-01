@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<warranties file_format="IOF" version="3.0" generated_by="IdoSell" language="pol" generated="2022-02-22 01:42:39" expires="2022-02-23 01:42:39">
+	<warranty id="1" name="Gwarancja producenta na 1 rok">
+		<terms type="producer" period_number="12" period_unit="month" />
+		<name xml:lang="eng">
+			<![CDATA[Manufacturer's 1-year warranty]]>
+		</name>
+		<description xml:lang="eng">
+			<![CDATA[<p><span>The manufacturer guarantees the repair or replacement of equipment for up to 12 months from the date of purchase. Contact the store through the online claim form to request a courier to pick up the equipment from your home.</span></p>]]>
+		</description>
+		<name xml:lang="pol">
+			<![CDATA[Gwarancja producenta na 1 rok]]>
+		</name>
+		<description xml:lang="pol">
+			<![CDATA[<p><span>Producent gwarantuje naprawę lub wymianę sprzętu do 12 miesięcy od daty zakupu. Skontaktuj się ze sklepem za pośrednictwem formularza reklamacji aby zamówić kuriera który odbierze sprzęt z Twojego domu.</span></p>]]>
+		</description>
+	</warranty>
+	<warranty id="2" name="Gwarancja producenta na 2 lata">
+		<terms type="producer" period_number="24" period_unit="month" />
+		<name xml:lang="eng">
+			<![CDATA[Manufacturer's 2-year warranty]]>
+		</name>
+		<description xml:lang="eng">
+			<![CDATA[<p><span>The manufacturer guarantees the repair or replacement of equipment for up to 24 months from the date of purchase. Contact the store through the online claim form to request a courier to pick up the equipment from your home.</span></p>]]>
+		</description>
+		<name xml:lang="pol">
+			<![CDATA[Gwarancja producenta na 2 lata]]>
+		</name>
+		<description xml:lang="pol">
+			<![CDATA[<p><span>Producent gwarantuje naprawę lub wymianę sprzętu do 24 miesięcy od daty zakupu. Skontaktuj się ze sklepem za pośrednictwem formularza reklamacji aby </span><span>zamówić kuriera który odbierze sprzęt z Twojego domu.</span></p>]]>
+		</description>
+	</warranty>
+	<warranty id="3" name="Gwarancja producenta na 5 lat">
+		<terms type="producer" period_number="60" period_unit="month" />
+		<name xml:lang="eng">Manufacturer's 5-year warranty</name>
+		<description xml:lang="eng">
+			<![CDATA[<p><span>The manufacturer guarantees the repair or replacement of equipment for up to 60 months from the date of purchase. Contact the store via the online claim form to arrange for a courier to pick up the equipment from your home.</span></p>]]>
+		</description>
+		<name xml:lang="pol">
+			<![CDATA[Gwarancja producenta na 5 lat]]>
+		</name>
+		<description xml:lang="pol">
+			<![CDATA[<p><span>Producent gwarantuje naprawę lub wymianę sprzętu do 60 miesięcy od daty zakupu. Skontaktuj się ze sklepem za pośrednictwem formularza reklamacji aby </span><span>zamówić kuriera który odbierze sprzęt z Twojego domu.</span></p>]]>
+		</description>
+	</warranty>
+	<warranty id="5" name="Gwarancja sklepu na 30 dni">
+		<terms type="seller" period_number="1" period_unit="month" />
+		<name xml:lang="eng">
+			<![CDATA[Gwarancja sklepu na 30 dni]]>
+		</name>
+		<description xml:lang="eng">
+			<![CDATA[<p><span>Post-lease products come with a 30-day start-up warranty. These are not brand new products but we test each one before shipping and can guarantee that they work properly when we hand them over to the courier. If you have concerns about the performance of your purchased equipment you can return it within one month of purchase. We will replace it or refund your money.</span</p>]]>
+		</description>
+		<name xml:lang="pol">
+			<![CDATA[30-day store guarantee]]>
+		</name>
+		<description xml:lang="pol">
+			<![CDATA[<p><span>Produkty poleasingowe są objęte 30-dniową gwarancją rozruchową. Nie są to produkty fabrycznie nowe ale testujemy każdy z nich przed wysyłką i możemy zagwarantować, że działają prawidłowo gdy przekazujemy je kurierowi. Jeżeli masz zastrzeżenia do działania zakupionego sprzętu możesz go zwrócić w ciągu miesiąca od zakupu. Wymienimy go lub zwrócimy pieniądze.</span></p>]]>
+		</description>
+	</warranty>
+</warranties>

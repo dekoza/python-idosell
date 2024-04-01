@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories file_format="IOF" version="3.0" generated_by="IdoSell Shop" language="pol" generated="2018-04-12 12:00:00" expires="2018-04-13 12:00:00">
+	<category id="0" name="*Kategoria tymczasowa"/>
+	<category id="1214554199" name="Obuwie sportowe">
+		<name xml:lang="pol">Obuwie sportowe</name>
+		<name xml:lang="eng">Sports shoes</name>
+	</category>
+	<category id="1214554200" name="Akcesoria sportowe">
+		<name xml:lang="pol">Akcesoria sportowe</name>
+		<name xml:lang="eng">Sport accessories</name>
+	</category>
+	<category id="1214554201" name="Sprzęt do ćwiczeń">
+		<name xml:lang="pol">Sprzęt do ćwiczeń</name>
+		<name xml:lang="eng">Exercise equipment</name>
+	</category>
+	<category id="1214554202" name="Obuwie Męskie">
+		<name xml:lang="pol">Obuwie Męskie</name>
+		<name xml:lang="eng">Men's shoes</name>
+			<category id="1214554203" name="PÓŁBUTY MĘSKIE">
+				<name xml:lang="pol">PÓŁBUTY MĘSKIE</name>
+				<name xml:lang="eng">MALE SHOES</name>
+			</category>
+			<category id="1214554204" name="BUTY SPORTOWE MĘSKIE">
+				<name xml:lang="pol">BUTY SPORTOWE MĘSKIE</name>
+				<name xml:lang="eng">MEN'S SPORT SHOES</name>
+			</category>
+			<category id="1214554205" name="BUTY MĘSKIE WYSOKIE">
+				<name xml:lang="pol">BUTY MĘSKIE WYSOKIE</name>
+				<name xml:lang="eng">MEN'S HIGH SHOES</name>
+			</category>
+			<category id="1214554206" name="SANDAŁY I KLAPKI MĘSKIE">
+				<name xml:lang="pol">SANDAŁY I KLAPKI MĘSKIE</name>
+				<name xml:lang="eng">SANDALS AND MALE FLAT</name>
+			</category>
+			<category id="1214554207" name="BUTY TREKKINGOWE MĘSKIE">
+				<name xml:lang="pol">BUTY TREKKINGOWE MĘSKIE</name>
+				<name xml:lang="eng">MEN'S TREKKING SHOES</name>
+			</category>
+	</category>
+</categories>

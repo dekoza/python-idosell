@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<series file_format="IOF" version="3.0" generated_by="IdoSell Shop" language="pol" generated="2018-04-12 12:00:00" expires="2018-04-13 12:00:00">
+	<series id="1" name="Wiosna/Lato">
+		<name xml:lang="pol">Wiosna/Lato</name>
+		<name xml:lang="eng">Spring/Summer</name>
+	</series>
+	<series id="2" name="Jesień/Zima">
+		<name xml:lang="pol">Jesień/Zima</name>
+		<name xml:lang="eng">Autumn/Winter</name>
+	</series>
+	<series id="3" name="Wakacje 2018">
+		<name xml:lang="pol">Wakacje 2018</name>
+		<name xml:lang="eng">Holiday 2018</name>
+	</series>
+	<series id="4" name="Kolekcja męska">
+		<name xml:lang="pol">Kolekcja męska</name>
+		<name xml:lang="eng">Men's collection</name>
+	</series>
+	<series id="5" name="Kolekcja damska">
+		<name xml:lang="pol">Kolekcja damska</name>
+		<name xml:lang="eng">Women's collection</name>
+	</series>
+	<series id="6" name="Kolekcja dziecięca">
+		<name xml:lang="pol">Kolekcja dziecięca</name>
+		<name xml:lang="eng">Children's collection</name>
+	</series>
+</series>

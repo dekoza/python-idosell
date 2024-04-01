@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stocks file_format="IOF" version="3.0" generated_by="IdoSell" language="pol" generated="2022-02-22 02:07:53" expires="2022-02-23 02:07:53">
+	<stock id="1" name="Magazyn główny">
+		<name xml:lang="pol">
+			<![CDATA[Magazyn główny]]>
+		</name>
+		<name xml:lang="eng">
+			<![CDATA[Main warehouse]]>
+		</name>
+	</stock>
+	<stock id="2" name="Magazyn pomocniczy">
+		<name xml:lang="pol">
+			<![CDATA[Magazyn pomocniczy]]>
+		</name>
+		<name xml:lang="eng">
+			<![CDATA[Auxiliary warehouse]]>
+		</name>
+	</stock>
+	<stock id="3" name="Magazyn wymiany">
+		<name xml:lang="pol">
+			<![CDATA[Magazyn wymiany]]>
+		</name>
+		<name xml:lang="eng">
+			<![CDATA[Exchange warehouse]]>
+		</name>
+	</stock>
+	<stock id="0" name="Magazyn obcy">
+		<name xml:lang="pol">
+			<![CDATA[Magazyn obcy]]>
+		</name>
+		<name xml:lang="eng">
+			<![CDATA[Supplier warehouse]]>
+		</name>
+	</stock>
+</stocks>

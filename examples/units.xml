@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<units file_format="IOF" version="3.0" generated_by="IdoSell Shop" language="pol" generated="2018-04-12 12:00:00" expires="2018-04-13 12:00:00">
+	<unit id="0" name="sztuka" precision="0">
+		<name xml:lang="pol"><![CDATA[szt.]]></name>
+		<name xml:lang="eng"><![CDATA[pcs]]></name>
+	</unit>
+	<unit id="1" name="para" precision="0">
+		<name xml:lang="pol"><![CDATA[para]]></name>
+		<name xml:lang="eng"><![CDATA[pair]]></name>
+	</unit>
+	<unit id="2" name="komplet" precision="0">
+		<name xml:lang="pol"><![CDATA[komplet]]></name>
+		<name xml:lang="eng"><![CDATA[set]]></name>
+	</unit>
+	<unit id="3" name="opakowanie" precision="0">
+		<name xml:lang="pol"><![CDATA[opakowanie]]></name>
+		<name xml:lang="eng"><![CDATA[package]]></name>
+	</unit>
+	<unit id="4" name="butelka" precision="0">
+		<name xml:lang="pol"><![CDATA[butelka]]></name>
+		<name xml:lang="eng"><![CDATA[bottle]]></name>
+	</unit>
+	<unit id="9" name="gram" precision="0">
+		<name xml:lang="pol"><![CDATA[gram]]></name>
+		<name xml:lang="eng"><![CDATA[gram]]></name>
+	</unit>
+	<unit id="10" name="liter" precision="3">
+		<name xml:lang="pol"><![CDATA[litr]]></name>
+		<name xml:lang="eng"><![CDATA[liter]]></name>
+	</unit>
+	<unit id="256" name="usługa" precision="0">
+		<name xml:lang="pol"><![CDATA[usługa]]></name>
+		<name xml:lang="eng"><![CDATA[service.]]></name>
+	</unit>
+</units>

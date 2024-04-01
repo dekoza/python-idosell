@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preset file_format="IOF" version="3.0" generated_by="IdoSell Shop" language="pol" generated="2018-04-12 12:00:00" expires="2018-04-13 12:00:00">
+	<long_name>example</long_name>
+	<short_name>example offer</short_name>
+	<showcase_image_url>http://link_to_company_logo.jpg</showcase_image_url>
+	<description>example description</description>
+	<email>support@superstore.com</email>
+	<tel>+48 91 000 000</tel>
+	<fax>+48 91 000 001</fax>
+	<www>www.iai-shop.com</www>
+	<address_street>Piastów 30</address_street>
+	<address_zipcode>71-064</address_zipcode>
+	<address_city>Szczecin</address_city>
+	<address_country>Poland</address_country>
+	<currency>PLN</currency>
+	<url>path_or_link_to_gateway.xml_file</url>
+	<full>path_or_link_to_full.xml_file</full>
+	<light>path_or_link_to_light.xml_file</light>
+	<categories>path_or_link_to_categories.xml_file</categories>
+	<sizes>path_or_link_to_sizes.xml_file</sizes>
+	<categories_auto_mapping>true</categories_auto_mapping>
+	<selected>false</selected>
+	<remote_gateway></remote_gateway>
+	<fully_configured>true</fully_configured>
+	<external_program>true</external_program>
+	<external_program_xml_path>path_to_external_offer_file</external_program_xml_path>
+	<producers>path_to_producers.xml_file</producers>
+	<units>path_or_link_to_units.xml_file</units>
+	<parameters>path_or_link_to_parameters.xml_file</parameters>
+	<stocks>path_or_link_to_stocks.xml_file</stocks>
+	<series>path_or_link_to_series.xml_file</series>
+	<sizes_auto_mapping>true</sizes_auto_mapping>
+	<units_auto_mapping>true</units_auto_mapping>
+	<size_code_prefix>example-</size_code_prefix>
+	<old_size_code_prefix>previous-</old_size_code_prefix>
+	<size_code_auto>true</size_code_auto>
+	<size_code_code_size>false</size_code_code_size>
+	<update_name>1</update_name>
+	<update_short_description>1</update_short_description>
+	<update_long_description>1</update_long_description>
+	<update_version_name>1</update_version_name>
+	<update_series>1</update_series>
+	<update_producer>1</update_producer>
+	<update_category>1</update_category>
+	<update_unit>1</update_unit>
+	<update_price>1</update_price>
+	<update_icon>1</update_icon>
+	<update_images>1</update_images>
+	<update_quantities>1</update_quantities>
+	<products_allowed_operations>all,edit,reset</products_allowed_operations>
+	<update_code_producer>1</update_code_producer>
+	<update_deliverer>1</update_deliverer>
+	<version_mode>1</version_mode>
+	<debug_product_import>true</debug_product_import>
+	<debug_product_update>true</debug_product_update>
+	<debug_product_always_import>false</debug_product_always_import>
+	<debug_product_always_update>false</debug_product_always_update>
+	<gatewayGeneratedOn>2018-04-12T12:00:00</gatewayGeneratedOn>
+	<full_lastModified></full_lastModified>
+	<light_lastModified></light_lastModified>
+	<categories_lastModified></categories_lastModified>
+	<sizes_lastModified></sizes_lastModified>
+	<producers_lastModified></producers_lastModified>
+	<units_lastModified></units_lastModified>
+	<series_lastModified></series_lastModified>
+	<warranties_lastModified></warranties_lastModified>
+	<providerImageLastModified></providerImageLastModified>
+	<imageHash></imageHash>
+	<offerCreated>2018-04-12T12:00:00</offerCreated>
+	<offerExpires>2018-04-12T12:00:00</offerExpires>
+	<warranties>path_or_link_to_warraties.xml_file</warranties>
+	<clonedProductsMode>0</clonedProductsMode>
+	<overwrite_products>false</overwrite_products>
+	<update_weight>1</update_weight>
+	<update_visibility>1</update_visibility>
+	<SRP_price>0</SRP_price>
+	<STP_price>0</STP_price>
+	<offer_from_bridge>0</offer_from_bridge>
+	<update_size>1</update_size>
+	<culture_info>pl-PL</culture_info>
+</preset>

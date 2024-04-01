@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters file_format="IOF" version="3.0" generated_by="IdoSell Shop" language="eng" generated="2018-04-12 12:00:00" expires="2018-04-13 12:00:00">
+	<sections>
+		<section id="756" name="Dane techniczne">
+			<name xml:lang="pol"><![CDATA[Dane techniczne]]></name>
+			<name xml:lang="eng"><![CDATA[Technical data]]></name>
+		</section>
+		<section id="757" name="Wygląd produktu">
+			<name xml:lang="pol"><![CDATA[Wygląd produktu]]></name>
+			<name xml:lang="eng"><![CDATA[Product appearance]]></name>
+		</section>
+		<section id="758" name="Budowa produktu">
+			<name xml:lang="pol"><![CDATA[Budowa produktu]]></name>
+			<name xml:lang="eng"><![CDATA[Product construction]]></name>
+		</section>
+	</sections>
+	<parameters>
+		<parameter id="706" name="Kolor">
+			<name xml:lang="pol"><![CDATA[Kolor]]></name>
+			<name xml:lang="eng"><![CDATA[Colour]]></name>
+			<description xml:lang="pol"><![CDATA[Informacja o użytych kolorach]]></description>
+			<description xml:lang="eng"><![CDATA[Information about used colors]]></description>
+			<icons>
+				<card xml:lang="pol" url="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"/>
+				<card xml:lang="eng" url="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"/>
+				<list xml:lang="pol" url="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"/>
+				<list xml:lang="eng" url="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"/>
+			</icons>
+		</parameter>
+		<parameter id="707" name="Materiał">
+			<name xml:lang="pol"><![CDATA[Materiał]]></name>
+			<name xml:lang="eng"><![CDATA[Material]]></name>
+		</parameter>
+		<parameter id="708" name="Model">
+			<name xml:lang="pol"><![CDATA[Model]]></name>
+			<name xml:lang="eng"><![CDATA[Model]]></name>
+		</parameter>
+	</parameters>
+	<values>
+		<value id="779" name="zielony">
+			<name xml:lang="pol"><![CDATA[zielony]]></name>
+			<name xml:lang="eng"><![CDATA[green]]></name>
+		</value>
+		<value id="780" name="czerwony">
+			<name xml:lang="pol"><![CDATA[czerwony]]></name>
+			<name xml:lang="eng"><![CDATA[red]]></name>
+		</value>
+		<value id="781" name="niebieski">
+			<name xml:lang="pol"><![CDATA[niebieski]]></name>
+			<name xml:lang="eng"><![CDATA[bue]]></name>
+		</value>
+		<value id="782" name="agat">
+			<name xml:lang="pol"><![CDATA[agat]]></name>
+			<name xml:lang="eng"><![CDATA[amethyst]]></name>
+		</value>
+		<value id="783" name="bawełna">
+			<name xml:lang="pol"><![CDATA[bawełna]]></name>
+			<name xml:lang="eng"><![CDATA[cotton]]></name>
+		</value>
+		<value id="784" name="kaszmir">
+			<name xml:lang="pol"><![CDATA[kaszmir]]></name>
+			<name xml:lang="eng"><![CDATA[cashmere]]></name>
+		</value>
+		<value id="785" name="optimum">
+			<name xml:lang="pol"><![CDATA[optimum]]></name>
+			<name xml:lang="eng"><![CDATA[optimum]]></name>
+		</value>
+		<value id="786" name="standard">
+			<name xml:lang="pol"><![CDATA[standard]]></name>
+			<name xml:lang="eng"><![CDATA[standard]]></name>
+		</value>
+		<value id="787" name="supreme">
+			<name xml:lang="pol"><![CDATA[supreme]]></name>
+			<name xml:lang="eng"><![CDATA[supreme]]></name>
+			<description xml:lang="pol"><![CDATA[Supreme jest materiałem szybkoschnącym, przewiewnym i łatwym w praniu]]></description>
+			<description xml:lang="eng"><![CDATA[Supreme is a fast drying, breathable and easy to wash material]]></description>
+			<icons>
+				<card xml:lang="pol" url="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"/>
+				<card xml:lang="eng" url="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"/>
+				<list xml:lang="pol" url="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"/>
+				<list xml:lang="eng" url="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"/>
+			</icons>
+		</value>
+	</values>
+</parameters>

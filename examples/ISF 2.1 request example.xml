@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set file_format="ISF" version="2.1" generated="2023-03-10T14:58:02+0100" author="IAI S.A.">
+	<event id="31642" type="order">
+		<shipment sequence="1" courier="PL-SHOPPICKUPPOINTS">
+			<tracking_number></tracking_number>
+			<tracking_url></tracking_url>
+			<package sequence="1">
+				<tracking_number></tracking_number>
+				<description>
+					<weight unit="g">15000</weight>
+					<reference>referencja nr 1</reference>
+					<reference>referencja nr 2</reference>
+					<reference>referencja nr 3</reference>
+					<packaging>box</packaging>
+					<dimensions unit="cm">
+						<height>30</height>
+						<width>30</width>
+						<length>120</length>
+					</dimensions>
+					<content_description>meble -zam. 31642</content_description>
+				</description>
+			</package>
+			<package sequence="2">
+				<tracking_number></tracking_number>
+				<description>
+					<weight unit="g">15000</weight>
+					<packaging>box</packaging>
+					<dimensions unit="cm">
+						<height>30</height>
+						<width>30</width>
+						<length>120</length>
+					</dimensions>
+					<content_description>meble -zam. 31642</content_description>
+				</description>
+			</package>
+			<package sequence="3">
+				<tracking_number></tracking_number>
+				<description>
+					<weight unit="g">15000</weight>
+					<packaging>box</packaging>
+					<dimensions unit="cm">
+						<height>30</height>
+						<width>30</width>
+						<length>120</length>
+					</dimensions>
+					<content_description>meble -zam. 31642</content_description>
+				</description>
+			</package>
+			<label>
+				<format>PDF</format>
+				<size>A4</size>
+				<labels_per_page>4</labels_per_page>
+				<base64></base64>
+			</label>
+			<service>
+				<priority>express</priority>
+			</service>
+			<additional_services>
+				<value currency="PLN">4.00</value>
+				<nonstandard>yes</nonstandard>
+				<fragile>yes</fragile>
+				<bring_up>yes</bring_up>
+				<carbon_neutral>yes</carbon_neutral>
+				<dutiable>
+					<customs_value currency="PLN">400</customs_value>
+				</dutiable>
+				<insurance currency="PLN">400</insurance>
+			</additional_services>
+			<pickup>
+				<cod>
+					<amount currency="PLN">21.85</amount>
+					<account_type>transfer</account_type>
+					<reference>31642</reference>
+					<transfer_account_id>44 1234 1324 1234 1234 1234</transfer_account_id>
+					<priority>fastest</priority>
+				</cod>
+				<rod>
+					<reference>referencja ROD 31642</reference>
+				</rod>
+				<confirmation>personal</confirmation>
+				<self_pickup>yes</self_pickup>
+			</pickup>
+			<cost currency="PLN">
+				<net>10.00</net>
+				<vat_percent>23</vat_percent>
+				<gross>12.30</gross>
+			</cost>
+			<dispatch_point>
+				<id>UAKY-3232</id>
+				<name>NADAWCA 20005</name>
+				<address>
+					<address>Dmytrivska 34</address>
+					<postcode>00343</postcode>
+					<city>Kijev</city>
+					<country>UA</country>
+				</address>
+			</dispatch_point>
+		</shipment>
+		<customs_declaration>
+			<customs_payer>recipient</customs_payer>
+			<products>
+				<product>
+					<country_of_origin>PL</country_of_origin>
+					<cntaric_code>85016120</cntaric_code>
+					<unit_price currency="EUR">2.2</unit_price>
+					<unit_weight unit="kg">
+						<gross>5</gross>
+						<net>5</net>
+					</unit_weight>
+					<quantity>2</quantity>
+					<descriptions>
+						<description lang="eng">Product 1</description>
+						<description lang="pol">Towar 2</description>
+					</descriptions>
+				</product>
+			</products>
+			<invoice>
+				<number>FVVV/11/PL/2109</number>
+				<issue_date>2021-09-13</issue_date>
+				<pdf>SWRvU2VsbCBJU0YgMi4xIGV4YW1wbGUgcmVxdWVzdA==</pdf>
+			</invoice>
+		</customs_declaration>
+		<sender>
+			<address>
+				<company>IAI S.A.</company>
+				<country>PL</country>
+				<postcode>71-064</postcode>
+				<city>Szczecin</city>
+				<address>Piastow 30</address>
+				<telephone>800304500500</telephone>
+				<type>business</type>
+			</address>
+			<notifications language="eng">
+				<email address="iaitest-10@oo.pl" type="create" />
+				<email address="iaitest-11@oo.pl" type="delivery" />
+				<email address="iaitest-12@oo.pl" type="exception" />
+			</notifications>
+		</sender>
+		<receiver>
+			<address>
+				<name>Jan Kowal</name>
+				<company>FIRMA</company>
+				<country>UA</country>
+				<postcode>00123</postcode>
+				<city>Kijev</city>
+				<address>Niska 3</address>
+				<type>private</type>
+			</address>
+			<contact>
+				<telephone>111222333</telephone>
+				<email>jankowalski@idosell.com</email>
+			</contact>
+			<notifications language="pol">
+				<email address="jankowalski@idosell.com" type="create" />
+				<email address="jankowalski@idosell.com" type="ship" />
+			</notifications>
+			<pickup_point>
+				<id>UA-KY-Volod45</id>
+				<country>UA</country>
+				<subdivision>Kijev</subdivision>
+				<postcode>01034</postcode>
+				<city>Kijev</city>
+				<address>Volodymyrska 45</address>
+			</pickup_point>
+		</receiver>
+		<payer>
+			<address>
+				<name>Jan Kowal</name>
+				<country>UA</country>
+				<postcode>00111</postcode>
+				<city>Kijev</city>
+				<address>Niska 3</address>
+			</address>
+		</payer>
+	</event>
+</set>

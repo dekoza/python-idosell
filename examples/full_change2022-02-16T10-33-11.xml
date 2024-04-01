@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<offer file_format="IOF" version="3.0" generated_by="IdoSell Shop" generated="2018-04-12 12:30:00" expires="2018-04-13 12:30:00">
+	<products xmlns:iaiext="http://www.iai-shop.com/developers/iof/extensions.phtml" language="eng" currency="GBP">
+		<product id="997" vat="23.0" currency="GBP" type="regular" producer_code_standard="AUTO" code_on_card="997-codeMPN">
+			<parameters>
+				<section id="1338261307" name="Example section No. 1" xml:lang="eng" priority="0"/>
+				<parameter id="1338261308" name="Sample parameter No. 1" xml:lang="eng" distinction="y" group_distinction="n" hide="y" auction_template_hide="y" priority="1">
+					<value id="1338261309" name="value No. 1 of parameter No. 1" xml:lang="eng" priority="0"/>
+					<value id="1338261310" name="value No. 2 of parameter No. 1" xml:lang="eng" priority="1"/>
+					<value id="1338261311" name="value No. 3 of parameter No. 1" xml:lang="eng" priority="2"/>
+					<value id="1338261311" name="value No. 4 of parameter No. 1" xml:lang="eng" priority="2"/>
+					<value id="1338261309" name="wartość 1 parametru nr 1" xml:lang="eng" priority="0"/>
+					<value id="1338261310" name="wartość 2 parametru nr 1" xml:lang="eng" priority="1"/>
+					<value id="1338261311" name="wartość 3 parametru nr 1" xml:lang="eng" priority="2"/>
+					<value id="1338261311" name="wartość 4 parametru nr 1" xml:lang="eng" priority="2"/>
+				</parameter>
+				<parameter id="1338261362" name="Sample parameter No. 24" xml:lang="eng" distinction="n" group_distinction="n" hide="n" auction_template_hide="n" priority="27" context_id="CONTEXT_COLOR">
+					<value id="1338261363" name="value No. 1 of parameter No. 24 A" xml:lang="eng" priority="0"/>
+					<value id="1338261363" name="wartość 1 parametru nr 24 A" xml:lang="pol" priority="0"/>
+				</parameter>
+			</parameters>
+		</product>
+	</products>
+</offer>

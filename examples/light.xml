@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<offer file_format="IOF" version="3.0" generated_by="IdoSell" generated="2022-02-21 14:14:09" expires="2022-02-22 14:14:09" xmlns:iof="http://www.iai-shop.com/developers/iof.phtml" xmlns:iaiext="http://www.iai-shop.com/developers/iof/extensions.phtml">
+<products currency="PLN">
+	<product id="33" vat="23.0">
+		<price gross="1563.60" net="1271.22"/>
+		<sizes>
+			<size id="1"  name="XXS" panel_name="xxs" code_producer="0000034567111"   iaiext:code_external="34567-11" code="33-1"  weight="1353"  iaiext:weight_net="1100" >
+				<price gross="1575.60" net="1280.98"/>
+				<srp gross="1600.99" net="1301.62"/>
+				<strikethrough_retail_price gross="14401.32" net="11708.39"/>
+			<stock id="0" quantity="9"/>
+			<stock id="1" quantity="-1"/>
+			</size>
+			<size id="2"  name="XS" panel_name="xs" code_producer="0000034567227"   iaiext:code_external="34567-22" code="33-2"  weight="1353" iaiext:weight_net="1100" >
+				<price gross="1587.60" net="1290.73"/>
+				<srp gross="1600.99" net="1301.62"/>
+				<strikethrough_retail_price gross="14401.32" net="11708.39"/>
+			<stock id="0" quantity="10"/>
+			<stock id="1" quantity="-1"/>
+			</size>
+			<size id="3"  name="S" panel_name="s" code_producer="0000034567333"   iaiext:code_external="34567-33" code="33-3"  weight="1353" iaiext:weight_net="1100" >
+				<price gross="1599.60" net="1300.49"/>
+				<srp gross="1600.99" net="1301.62"/>
+				<strikethrough_retail_price gross="14401.32" net="11708.39"/>
+			<stock id="0" quantity="10"/>
+			<stock id="1" quantity="-1"/>
+			</size>
+			<size id="4"  name="M" panel_name="m" code_producer="0000034567449"   iaiext:code_external="34567-44" code="33-4"  weight="1353" iaiext:weight_net="1100" >
+				<price gross="1611.60" net="1310.24"/>
+				<srp gross="1600.99" net="1301.62"/>
+				<strikethrough_retail_price gross="14401.32" net="11708.39"/>
+			<stock id="0" quantity="10"/>
+			<stock id="1" quantity="-1"/>
+			</size>
+			<size id="5"  name="L" panel_name="l" code_producer="0000034567555"   iaiext:code_external="34567-55" code="33-5"  weight="1353" iaiext:weight_net="1100" >
+				<price gross="1623.60" net="1320.00"/>
+				<srp gross="1600.99" net="1301.62"/>
+				<strikethrough_retail_price gross="14401.32" net="11708.39"/>
+			</size>
+			<size id="6"  name="XL" panel_name="xl" code_producer="0000034567661"   iaiext:code_external="34567-66" code="33-6"  weight="1353" iaiext:weight_net="1100" >
+				<price gross="1635.60" net="1329.76"/>
+				<srp gross="1600.99" net="1301.62"/>
+				<strikethrough_retail_price gross="14401.32" net="11708.39"/>
+			<stock id="0" quantity="10"/>
+			<stock id="1" quantity="-1"/>
+			</size>
+			<size id="7"  name="XXL" panel_name="xxl" code_producer="0000034567777"   iaiext:code_external="34567-77" code="33-7"  weight="1353" iaiext:weight_net="1100" >
+				<price gross="1647.60" net="1339.51"/>
+				<srp gross="1600.99" net="1301.62"/>
+				<strikethrough_retail_price gross="14401.32" net="11708.39"/>
+			<stock id="0" quantity="10"/>
+			<stock id="1" quantity="-1"/>
+			</size>
+			<size id="9"  name="XXXXL" panel_name="xxxxl" code_producer="0000034567999"   iaiext:code_external="34567-99" code="33-9"  weight="1353" iaiext:weight_net="1100" >
+				<price gross="1671.60" net="1359.02"/>
+				<srp gross="1600.99" net="1301.62"/>
+				<strikethrough_retail_price gross="14401.32" net="11708.39"/>
+			<stock id="1" quantity="-1"/>
+			</size>
+		</sizes>
+	</product>
+	<product id="34" vat="23.0">
+		<price gross="6125.87" net="4980.38"/>
+		<sizes>
+			<size id="1"  name="XXS" panel_name="xxs" code_producer="978-0-00-034101-3"   iaiext:code_external="34-101-34-101-34-101" code="34-1"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="102"/>
+			</size>
+			<size id="2"  name="XS" panel_name="xs" code_producer="978-0-00-034202-7"   iaiext:code_external="34-202-34-202-34-202" code="34-2"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="100"/>
+			</size>
+			<size id="3"  name="S" panel_name="s" code_producer="978-0-00-034303-1"   iaiext:code_external="34-303-34-303-34-303" code="34-3"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="102"/>
+			</size>
+			<size id="4"  name="M" panel_name="m" code_producer="978-0-00-034404-5"   iaiext:code_external="34-404-34-404-34-404" code="34-4"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="100"/>
+			</size>
+			<size id="5"  name="L" panel_name="l" code_producer="978-0-00-034505-9"   iaiext:code_external="34-505-34-50534-505" code="34-5"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="103"/>
+			</size>
+			<size id="6"  name="XL" panel_name="xl" code_producer="978-0-00-034606-3"   iaiext:code_external="34-606-34-606-34-606" code="34-6"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="100"/>
+			</size>
+			<size id="7"  name="XXL" panel_name="xxl" code_producer="978-0-00-034707-7"   iaiext:code_external="34-707-34-707-34-707" code="34-7"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="104"/>
+			</size>
+			<size id="8"  name="XXXL" panel_name="xxxl" code_producer="978-0-00-034808-1"   iaiext:code_external="34-808-34-808-34-808" code="34-8"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="100"/>
+			</size>
+			<size id="9"  name="XXXXL" panel_name="xxxxl" code_producer="978-0-00-034909-5"   iaiext:code_external="34-909-34-909-34-909" code="34-9"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="100"/>
+			</size>
+		</sizes>
+	</product>
+	<product id="35" vat="23.0">
+		<price gross="14103.61" net="11466.35"/>
+		<sizes>
+			<size id="1"  name="XXS" panel_name="xxs" code_producer="00000000351010"   iaiext:code_external="35-101-35-101" code="35-1"  weight="110" iaiext:weight_net="10" >
+			<stock id="0" quantity="29"/>
+			<stock id="1" quantity="4"/>
+			</size>
+			<size id="2"  name="XS" panel_name="xs" code_producer="00000000352024"   iaiext:code_external="35-202-35-202" code="35-2"  weight="120" iaiext:weight_net="20" >
+			<stock id="0" quantity="30"/>
+			</size>
+			<size id="3"  name="S" panel_name="s" code_producer="00000000353038"   iaiext:code_external="35-303-35-303" code="35-3"  weight="130" iaiext:weight_net="30" >
+			<stock id="0" quantity="30"/>
+			</size>
+			<size id="4"  name="M" panel_name="m" code_producer="00000000354042"   iaiext:code_external="35-404-35-404" code="35-4"  weight="140" iaiext:weight_net="40" >
+			<stock id="0" quantity="30"/>
+			</size>
+			<size id="5"  name="L" panel_name="l" code_producer="00000000355056"   iaiext:code_external="35-505-35-505" code="35-5"  weight="150" iaiext:weight_net="50" >
+			<stock id="0" quantity="30"/>
+			</size>
+			<size id="6"  name="XL" panel_name="xl" code_producer="00000000356060"   iaiext:code_external="35-606-35-606" code="35-6"  weight="160" iaiext:weight_net="60" >
+			<stock id="0" quantity="30"/>
+			</size>
+			<size id="7"  name="XXL" panel_name="xxl" code_producer="00000000357074"   iaiext:code_external="35-707-35-707" code="35-7"  weight="170" iaiext:weight_net="70" >
+			<stock id="0" quantity="30"/>
+			</size>
+			<size id="8"  name="XXXL" panel_name="xxxl" code_producer="00000000358088"  code="35-8"   iaiext:code_external="35-808-35-808" weight="180" iaiext:weight_net="80" >
+			<stock id="0" quantity="30"/>
+			</size>
+			<size id="9"  name="XXXXL" panel_name="xxxxl" code_producer="00000000359092"  code="35-9"   iaiext:code_external="35-909-35-909" weight="190" iaiext:weight_net="90" >
+			<stock id="0" quantity="30"/>
+			</size>
+		</sizes>
+	</product>
+	<product id="41" vat="23.0">
+		<price gross="110.00" net="89.43"/>
+		<srp gross="300.00" net="243.9"/>
+		<strikethrough_retail_price gross="4500.00" net="3658.54"/>
+		<sizes>
+			<size id="0"  name="one size" panel_name="one size" code_producer="978-3-16-1484888-2"   iaiext:code_external="184083068865" code="41-0"  weight="1353" iaiext:weight_net="1100" >
+			<stock id="1" quantity="120"/>
+			</size>
+		</sizes>
+	</product>
+	<product id="42" vat="23.0">
+		<price gross="130.30" net="105.93"/>
+		<srp gross="1600.99" net="1301.62"/>
+		<strikethrough_retail_price gross="1200.11" net="975.70"/>
+		<sizes>
+			<size id="0"  name="one size" panel_name="one size" code_producer="7071907772338"   iaiext:code_external="6071907771111" code="42-0"  weight="4419" iaiext:weight_net="3360" >
+			<stock id="1" quantity="29"/>
+			</size>
+		</sizes>
+	</product>
+	<product id="44" vat="23.0">
+		<price gross="125.00" net="101.63"/>
+		<srp gross="300.00" net="243.9"/>
+		<sizes>
+			<size id="0"  name="one size" panel_name="one size" code_producer="4012345"   iaiext:code_external="00054012345" code="44-0"  weight="2816" iaiext:weight_net="2210" >
+			<stock id="1" quantity="-1"/>
+			</size>
+		</sizes>
+	</product>
+	<product id="45" vat="23.0">
+		<price gross="49.18" net="39.98"/>
+		<sizes>
+			<size id="0"  name="one size" panel_name="one size" code_producer="5906961128614"   iaiext:code_external="4357689070-4567" code="45-0"  weight="10" iaiext:weight_net="20" >
+			<stock id="1" quantity="150"/>
+			</size>
+		</sizes>
+	</product>
+	<product id="47" vat="23.0">
+		<price gross="406.81" net="330.74"/>
+		<sizes>
+			<size id="0"  name="one size" panel_name="one size" code_producer="9788379947898"   iaiext:code_external="9788-3799-47898" code="47-0"  weight="0" iaiext:weight_net="0" >
+			<stock id="1" quantity="-1"/>
+			</size>
+		</sizes>
+	</product>
+</products>
+</offer>
