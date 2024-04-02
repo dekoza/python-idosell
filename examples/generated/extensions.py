@@ -5,7 +5,7 @@ from typing import List, Optional, Union
 
 from pydantic.dataclasses import dataclass
 
-from generated.xml import LangValue
+from .xml import LangValue
 
 __NAMESPACE__ = "http://www.iai-shop.com/developers/iof/extensions.phtml"
 

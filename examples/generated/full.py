@@ -1877,13 +1877,13 @@ class Product:
     class Meta:
         name = "product"
 
-    producer: List[Producer] = field(
+    producer: List[Producer] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    category: List[Category] = field(
+    category: List[Category] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1896,7 +1896,7 @@ class Product:
             "namespace": "http://www.iai-shop.com/developers/iof/extensions.phtml",
         },
     )
-    category_idosell: List[CategoryIdosell] = field(
+    category_idosell: List[CategoryIdosell] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1916,7 +1916,7 @@ class Product:
             "namespace": "http://www.iai-shop.com/developers/iof/extensions.phtml",
         },
     )
-    unit: List[Unit] = field(
+    unit: List[Unit] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1929,7 +1929,7 @@ class Product:
             "namespace": "http://www.iai-shop.com/developers/iof/extensions.phtml",
         },
     )
-    series: List[Series] = field(
+    series: List[Series] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1942,7 +1942,7 @@ class Product:
             "namespace": "http://www.iai-shop.com/developers/iof/extensions.phtml",
         },
     )
-    card: List[Card] = field(
+    card: List[Card] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1955,13 +1955,13 @@ class Product:
             "namespace": "http://www.iai-shop.com/developers/iof/extensions.phtml",
         },
     )
-    description: List[Description] = field(
+    description: List[Description] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    price: List[Price] = field(
+    price: List[Price] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",
@@ -1973,13 +1973,13 @@ class Product:
             "type": "Element",
         },
     )
-    strikethrough_retail_price: List[StrikethroughRetailPrice] = field(
+    strikethrough_retail_price: List[StrikethroughRetailPrice] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",
         },
     )
-    strikethrough_wholesale_price: List[StrikethroughWholesalePrice] = field(
+    strikethrough_wholesale_price: List[StrikethroughWholesalePrice] = field(  #
         default_factory=list,
         metadata={
             "type": "Element",

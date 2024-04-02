@@ -1,11 +1,11 @@
 from decimal import Decimal
 from typing import Literal
 from enum import StrEnum, auto
-from pydantic import HttpUrl
+from pydantic import HttpUrl, conlist
 from pydantic_xml.model import BaseXmlModel, element, attr, wrapped
 import datetime as dt
 
-YesNo = Literal["yes", "no"]
+from .shared import YesNo
 
 
 class PriceBase(BaseXmlModel):
@@ -30,17 +30,29 @@ class Size(
     BaseXmlModel,
     search_mode="unordered",
 ):
-    id: str = attr()
+    id: str | None = attr(default=None)
     name: str | None = attr(default=None)
     panel_name: str | None = attr(default=None)
     code: str | None = attr(default=None)
     weight: str | None = attr(default=None)
     code_producer: str | None = attr(default=None)
+    # code_external
+    # weight_net
+    # min_weight
+    # max_weight
+    # priority
+    # iai_shop_com_developers_iof_extensions_phtml_code
+    # iai_shop_com_developers_iof_extensions_phtml_code_producer
 
-    price: PriceBase | None = element(default=None)
-    srp: PriceBase | None = element(default=None)
-    strikethrough_retail_price: PriceBase | None = element(default=None)
-    strikethrough_wholesale_price: PriceBase | None = element(default=None)
+    prices: list[PriceBase] | None = element(default=None, tag="price")
+    srps: list[PriceBase] | None = element(default=None, tag="srp")
+    strikethrough_retail_prices: list[PriceBase] | None = element(
+        default=None, tag="strikethrough_retail_price"
+    )
+    strikethrough_wholesale_prices: PriceBase | None = element(
+        default=None, tag="strikethrough_wholesale_price"
+    )
+
     stock: list[Stock] | None = element(tag="stock", default=None)
 
 
@@ -70,9 +82,10 @@ class Card(BaseXmlModel):
     url_mobile: HttpUrl | None = attr(default=None)
 
 
-class Version(BaseXmlModel):
-    main_name: str = attr(name="name")
-    names: list[Name] = element(tag="name")
+class Version(BaseXmlModel, nsmap={"xml": "http://www.w3.org/XML/1998/namespace"}):
+    lang: str | None = attr(name="lang", ns="xml", default=None)
+    name_attribute: str = attr(name="name")
+    names: conlist(Name, min_length=1) = element(tag="name")
 
 
 class Description(
@@ -83,6 +96,8 @@ class Description(
     versions: list[Version] | None = element(tag="version", default=None)
     long_descs: list[Name] = element(tag="long_desc")
     short_descs: list[Name] = element(tag="short_desc")
+    # auction_names: list[Name] = element(tag="auction_name", ns=...)
+    # ...
 
 
 class Image(BaseXmlModel, search_mode="unordered"):
@@ -91,17 +106,18 @@ class Image(BaseXmlModel, search_mode="unordered"):
     changed: dt.datetime | None = attr(default=None)
     width: int | None = attr(default=None)
     height: int | None = attr(default=None)
+    # priority
 
 
 class Icons(BaseXmlModel):
-    icon: Image
-    auction_icon: Image | None = element(default=None)
-    group_icon: Image | None = element(default=None)
+    icons: list[Image] = element(tag="icon")
+    auction_icons: list[Image] | None = element(default=None, tag="auction_icon")
+    group_icons: list[Image] | None = element(default=None, tag="group_icon")
 
 
 class Images(BaseXmlModel):
     large: list[Image] = wrapped("large", element(tag="image"))
-    icons: Icons
+    icons: list[Icons] = element(tag="icons")
 
 
 class Limitation(BaseXmlModel):
@@ -127,7 +143,7 @@ class IdName2(BaseXmlModel):
 
 
 class GroupByParam(IdName2):
-    product_value: IdName2 = element(tag="product_value")
+    product_values: list[IdName2] = element(tag="product_value")
 
 
 class Group(BaseXmlModel):
@@ -139,14 +155,16 @@ class IdNamePrio(IdName):
     priority: int = attr()
 
 
-class Parameter(IdName):
-    type: str = attr()
-    priority: int = attr()
-    distinction: str = attr()
-    group_distinction: str = attr()
-    hide: str = attr()
-    auction_template_hide: str = attr()
+class Parameter(IdName, nsmap={"xml": "http://www.w3.org/XML/1998/namespace"}):
     value: IdNamePrio | None = element(default=None)
+    lang: str | None = attr(name="lang", ns="xml", default=None)
+    type: str | None = attr(default=None)
+    priority: str | None = attr(default=None)
+    distinction: YesNo | None = attr(default=None)
+    group_distinction: YesNo | None = attr(default=None)
+    hide: YesNo | None = attr(default=None)
+    auction_template_hide: YesNo | None = attr(default=None)
+    context_id: str | None = attr(default=None)
 
 
 class BundleProduct(BaseXmlModel):
@@ -184,6 +202,23 @@ class ProdCodeStandard(StrEnum):
         return None
 
 
+class ShownInTheZone(BaseXmlModel):
+    promotion: YesNo | None = attr(default=None)
+    discount: YesNo | None = attr(default=None)
+    distinguished: YesNo | None = attr(default=None)
+    special: YesNo | None = attr(default=None)
+    bestseller: YesNo | None = attr(default=None)
+    newproduct: YesNo | None = attr(default=None)
+
+
+class Promotion(BaseXmlModel):
+    price: Price
+    shown_in_the_zone: ShownInTheZone
+    name: str = attr()
+    start_date: str | None = attr(default=None)
+    ending_date: str | None = attr(default=None)
+
+
 class Product(
     BaseXmlModel,
     tag="product",
@@ -198,19 +233,27 @@ class Product(
     site: int | None = attr(default=None)
     removed: YesNo | None = attr(default=None)
 
-    producer: IdName | None = element(default=None)
-    category: IdName | None = element(default=None)
-    category_idosell: IdPath | None = element(default=None)
-    unit: IdName | None = element(default=None)
-    series: IdName | None = element(default=None)
+    producers: list[IdName] | None = element(default=None, tag="producer")
+    categories: list[IdName] | None = element(default=None, tag="category")
+    categories_idosell: list[IdPath] | None = element(
+        default=None, tag="category_idosell"
+    )
+    units: list[IdName] | None = element(default=None, tag="unit")
+    series: list[IdName] | None = element(default=None, tag="series")
     warranty: Warranty | None = element(default=None)
-    card: Card | None = element(default=None)
-    description: Description | None = element(default=None)
+    cards: list[Card] | None = element(default=None, tag="card")
+    descriptions: list[Description] | None = element(default=None, tag="description")
 
-    price: PriceBase | None = element(default=None)
-    srp: PriceBase | None = element(default=None)
-    strikethrough_retail_price: PriceBase | None = element(default=None)
-    strikethrough_wholesale_price: PriceBase | None = element(default=None)
+    prices: list[PriceBase] | None = element(default=None, tag="price")
+    srps: list[PriceBase] | None = element(default=None, tag="srp")
+    strikethrough_retail_prices: list[PriceBase] | None = element(
+        default=None, tag="strikethrough_retail_price"
+    )
+    strikethrough_wholesale_prices: PriceBase | None = element(
+        default=None, tag="strikethrough_wholesale_price"
+    )
+
+    promotions: list[Promotion] | None = element(default=None, tag="promotion")
 
     sizes: list[Size] = wrapped(
         "sizes",
@@ -243,9 +286,10 @@ class Full(
         "iaiext": "http://www.iai-shop.com/developers/iof/extensions.phtml",
     },
 ):
-    file_format: Literal["IOF"] = attr(default="IOF")
+    file_format: Literal["IOF"] | None = attr(default="IOF")
     version: Decimal = attr(default="3.0")
     extensions: YesNo = attr(default="no")
     generated: dt.datetime | None = attr(default=None)
+    generated_by: str | None = attr(default=None)
     expires: dt.datetime | None = attr(default=None)
-    products: Products | None = element(default=None)
+    products: Products

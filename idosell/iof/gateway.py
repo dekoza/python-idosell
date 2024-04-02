@@ -1,4 +1,5 @@
 from decimal import Decimal
+from typing import Literal
 
 import pendulum
 from pydantic import HttpUrl, conlist
@@ -55,7 +56,7 @@ class LinkedFull(HashChangedUrl, tag="full"):
 
 
 class Gateway(BaseXmlModel, tag="provider_description", search_mode="unordered"):
-    file_format: str | None = attr(default="IOF")
+    file_format: Literal["IOF"] | None = attr(default="IOF")
     version: Decimal | None = attr(default=Decimal("3.0"))
     generated_by: str | None = attr(default=None)
     generated: dt.datetime | None = attr(default_factory=pendulum.now)
