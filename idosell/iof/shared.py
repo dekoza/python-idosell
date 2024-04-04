@@ -27,3 +27,12 @@ class YesNo(StrEnum):
     NO = "no"
     Y = "y"
     N = "n"
+
+
+class ProductType(StrEnum):
+    REGULAR = "regular"
+    PACKAGING = "packaging"
+    VIRTUAL = "virtual"
+    BUNDLE = "bundle"
+    COLLECTION = "collection"
+    SERVICE = "service"

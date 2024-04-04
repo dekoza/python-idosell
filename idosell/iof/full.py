@@ -5,7 +5,7 @@ from pydantic import HttpUrl, conlist
 from pydantic_xml.model import BaseXmlModel, element, attr, wrapped
 import datetime as dt
 
-from .shared import YesNo
+from .shared import YesNo, ProductType
 
 
 class PriceBase(BaseXmlModel):
@@ -56,7 +56,8 @@ class Size(
     stock: list[Stock] | None = element(tag="stock", default=None)
 
 
-class IdName(BaseXmlModel):
+class IdName(BaseXmlModel, nsmap={"xml": "http://www.w3.org/XML/1998/namespace"}):
+    lang: str | None = attr(name="lang", ns="xml", default=None)
     id: str = attr()
     name: str = attr()
 
@@ -152,24 +153,28 @@ class Group(BaseXmlModel):
 
 
 class IdNamePrio(IdName):
-    priority: int = attr()
-
-
-class Parameter(IdName, nsmap={"xml": "http://www.w3.org/XML/1998/namespace"}):
-    value: IdNamePrio | None = element(default=None)
-    lang: str | None = attr(name="lang", ns="xml", default=None)
-    type: str | None = attr(default=None)
     priority: str | None = attr(default=None)
+
+
+class Parameter(IdNamePrio, nsmap={"xml": "http://www.w3.org/XML/1998/namespace"}):
+    value: IdNamePrio | None = element(default=None)
+    type: str | None = attr(default=None)
     distinction: YesNo | None = attr(default=None)
     group_distinction: YesNo | None = attr(default=None)
     hide: YesNo | None = attr(default=None)
     auction_template_hide: YesNo | None = attr(default=None)
     context_id: str | None = attr(default=None)
+    # iai_shop_com_developers_iof_extensions_phtml_context_id
+
+
+class Parameters(BaseXmlModel):
+    sections: list[IdNamePrio] | None = element(default=None, tag="section")
+    parameters: list[Parameter] | None = element(default=None, tag="parameter")
 
 
 class BundleProduct(BaseXmlModel):
     id: str = attr()
-    type: str = attr()
+    type: ProductType = attr()
     quantity: Decimal = attr()
     sizes: list[Size] | None = wrapped(
         "sizes", element(tag="size", default=None), default=None
@@ -228,7 +233,7 @@ class Product(
     currency: str | None = attr(default=None)
     code_on_card: str = attr()
     producer_code_standard: ProdCodeStandard = attr()
-    type: str = attr()
+    type: ProductType = attr()
     vat: Decimal | None = attr(default=None)
     site: int | None = attr(default=None)
     removed: YesNo | None = attr(default=None)
@@ -264,9 +269,9 @@ class Product(
     attachments: list[File] | None = wrapped(
         "attachments", element(tag="file", default=None), default=None
     )
-    group: Group | None = element(default=None)
-    parameters: list[Parameter] = wrapped("parameters", element(tag="parameter"))
-    bundled: Bundle | None = element(default=None)
+    groups: list[Group] | None = element(default=None, tag="group")
+    parameters: list[Parameters] | None = element(default=None)
+    bundles: list[Bundle] | None = element(default=None, tag="bundled")
 
 
 class Products(BaseXmlModel):
